@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime public-data cache and generated planning products
+travel_demand_gis/data/*.csv
+travel_demand_gis/data/*.zip
+travel_demand_gis/data/*.gpkg
+travel_demand_gis/data/*.gz
+travel_demand_gis/outputs/*
+!travel_demand_gis/outputs/.gitkeep
+
+# Local environment
+.venv/
+.env
