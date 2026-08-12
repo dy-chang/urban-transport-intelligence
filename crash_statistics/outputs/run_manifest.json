@@ -1,0 +1,28 @@
+{
+  "data_source": "City of Chicago Data Portal: Traffic Crashes - Crashes (85ca-t3if)",
+  "analysis_period": {
+    "min_crash_date": "2018-01-01 00:00:00",
+    "max_crash_date": "2018-02-17 19:50:00"
+  },
+  "n_downloaded": 15000,
+  "n_analysis": 15000,
+  "n_train": 11250,
+  "n_test": 3750,
+  "outcome": "injury_crash = injuries_total > 0 at the crash level",
+  "features": [
+    "lighting_group",
+    "weather_group",
+    "surface_group",
+    "intersection_context",
+    "speed_group",
+    "daypart"
+  ],
+  "evaluation": {
+    "roc_auc": 0.581,
+    "average_precision": 0.1678,
+    "brier_score": 0.2455,
+    "prevalence": 0.1301
+  },
+  "uncertainty": "Stratified non-parametric bootstrap, 300 repetitions, seed 2026",
+  "interpretation": "Associational analysis only; no causal effect is identified."
+}
