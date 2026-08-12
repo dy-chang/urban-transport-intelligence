@@ -1,42 +1,26 @@
 # Python
-
 __pycache__/
-
 *.py[cod]
-
 .pytest_cache/
 
-
-
 # Runtime public-data cache and generated planning products
-
 travel_demand_gis/data/*.csv
-
 travel_demand_gis/data/*.zip
-
 travel_demand_gis/data/*.gpkg
-
 travel_demand_gis/data/*.gz
-
 travel_demand_gis/outputs/*
-
 !travel_demand_gis/outputs/.gitkeep
 
-
-
-# Raw Chicago crash-data cache; derived outputs are intentionally versioned
-
-crash_statistics/data/*.csv
-
-crash_statistics/data/*.csv.gz
-
-crash_statistics/data/*.parquet
-
-
-
 # Local environment
-
 .venv/
-
 .env
 
+# Raw Chicago crash-data cache; derived outputs are intentionally versioned
+crash_statistics/data/*.csv
+crash_statistics/data/*.csv.gz
+crash_statistics/data/*.parquet
+
+# SUMO public-data runtime cache and per-run logs
+sumo_public_ops/data/raw/*
+!sumo_public_ops/data/raw/.gitkeep
+sumo_public_ops/outputs/runs/
