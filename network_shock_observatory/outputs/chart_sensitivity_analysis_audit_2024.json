@@ -1,0 +1,9 @@
+{
+  "causal_boundary": "CHART post-event incidents may be mediators of collapse-induced congestion and rerouting. They are excluded from the main total-effect SCM. Non-severe restriction and CHART-conditioned pair-gap models are descriptive sensitivity analyses only.",
+  "chart_spatial_rule": "Primary-road text match; I-895/I-795 are full facility contexts; I-95/I-83 require Baltimore study-segment exit/milepost/landmark match. No event is assigned to a detector zone.",
+  "pair_model": "Treatment-minus-control 15-minute detector outcome gap regressed on post indicator, recurring weekday\u00d7time-of-day effects, and optional treatment-minus-control CHART context differences. Percentile intervals use 250 stratified pre/post day-block resamples.",
+  "scm_sensitivity": "SCM re-estimated using only times without a matched acute severe CHART context event (valid duration 24 hours or less) on the treatment route; conditioning changes the estimand and does not identify the total collapse effect.",
+  "seasonal_descriptive_window": "March 27\u2013April 23 in each year; event counts are non-causal and based on conservative CHART route-segment text matching.",
+  "n_bootstrap_day_blocks": 250,
+  "seed": 20260813
+}

@@ -1,0 +1,5 @@
+year,season_window,route_context,active_events_overlapping_window,events_started_in_window,collisions_started_in_window,roadwork_started_in_window,disabled_vehicles_started_in_window,lane_closure_events_started_in_window,overlap_event_minutes_all_hours,days_in_window,events_started_per_day,collision_started_per_day
+2023,2023-03-27 to 2023-04-23,control_route_context,162,162,21,3,70,54,5538.0,28,5.785714285714286,0.75
+2023,2023-03-27 to 2023-04-23,treatment_route_context,1093,1060,151,71,621,340,2057629.0,28,37.857142857142854,5.392857142857143
+2024,2024-03-27 to 2024-04-23,control_route_context,133,133,18,1,64,37,3752.0,28,4.75,0.6428571428571429
+2024,2024-03-27 to 2024-04-23,treatment_route_context,1243,1186,217,46,709,393,1884804.0,28,42.357142857142854,7.75

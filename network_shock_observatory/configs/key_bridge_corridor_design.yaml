@@ -1,0 +1,61 @@
+study:
+  title: "Corridor-specific traffic effects of the Francis Scott Key Bridge collapse"
+  event_date_local: "2024-03-26"
+  analysis_timezone: "America/New_York"
+  primary_event_day_excluded: true
+  data_frequency_minutes: 15
+  daily_min_15min_bins: 55
+  analysis_weekdays: [0, 1, 2, 3, 4]
+
+periods:
+  analysis_start_2024: "2024-02-12"
+  analysis_end_2024: "2024-04-23"
+  calendar_donor_start: "2023-02-12"
+  calendar_donor_end: "2023-04-23"
+  placebo_year_event_date: "2023-04-11"
+  placebo_donor_start: "2022-02-12"
+  placebo_donor_end: "2022-04-23"
+  event_day_reference: -1
+  dynamic_pre_start: -42
+  dynamic_post_end: 26
+
+outcomes:
+  - log_daily_volume
+  - volume_weighted_speed_mph
+  - mean_occupancy
+  - am_log_volume
+  - pm_log_volume
+  - am_speed_mph
+  - pm_speed_mph
+
+corridors:
+  treatment:
+    label: "Official cross-harbor diversion approaches: I-95 and I-895"
+    official_basis: "MDTA advisory of 2024-03-26 directed harbor-crossing traffic to I-95 or I-895 tunnels."
+    rules:
+      - road_in: ["I-95", "I-895"]
+        latitude_min: 39.20
+        latitude_max: 39.32
+        longitude_min: -76.72
+        longitude_max: -76.52
+  control:
+    label: "Baltimore-area non-harbor freeway comparison: I-83 and I-795"
+    rationale: "Interstate freeway detectors in the Baltimore region, spatially separated from the official cross-harbor tunnel diversion approaches."
+    rules:
+      - road_in: ["I-83", "I-795"]
+        latitude_min: 39.38
+        latitude_max: 39.60
+        longitude_min: -76.85
+        longitude_max: -76.64
+
+inference:
+  bootstrap_cluster: zone_id
+  bootstrap_draws: 2000
+  seed: 20260326
+  placebo: "Repeat identical same-weekday dynamic difference-in-differences specification with 2023-04-11 as pseudo-event and 2022 as donor year; both years use weekday observations only."
+
+interpretation_boundary: >-
+  The treated corridor is defined from official detour guidance and external published traffic evidence,
+  not from the post-event detector outcome. This is a corridor-level comparative design; it estimates
+  changes conditional on its parallel-trend and no-differential-spillover assumptions and does not
+  observe individual rerouting decisions.

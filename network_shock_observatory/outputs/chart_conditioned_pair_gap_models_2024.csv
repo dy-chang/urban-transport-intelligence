@@ -1,0 +1,5 @@
+outcome,model,post_treatment_minus_control_coefficient,day_block_bootstrap_ci_2_5,day_block_bootstrap_median,day_block_bootstrap_ci_97_5,n_15min_pair_observations,n_calendar_days,r_squared,chart_context_terms,approximate_percent_change
+speed_mph,unadjusted_pair_gap,-4.831397194324402,-5.45101788311934,-4.831473285274235,-4.242352431712442,3454,51,0.5916457402191566,none,
+speed_mph,CHART_conditioned_pair_gap,-4.669704337833406,-5.405260474845294,-4.6309475298771785,-3.9528231048715448,3454,51,0.6111133560423669,"delta_acute_severe_context, delta_collision, delta_disabled_vehicle, delta_lanes_closed_observed",
+log_total_volume,unadjusted_pair_gap,-0.056156092428064686,-0.1264929769249063,-0.053973095585694075,0.030430363536674436,3454,51,0.48180253900269987,none,-5.460844409079657
+log_total_volume,CHART_conditioned_pair_gap,-0.07096452801523964,-0.14999988430595332,-0.06616111197347313,0.028469995440700908,3454,51,0.4881365229382445,"delta_acute_severe_context, delta_collision, delta_disabled_vehicle, delta_lanes_closed_observed",-6.850506648434718

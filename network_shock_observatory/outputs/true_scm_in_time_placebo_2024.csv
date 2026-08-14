@@ -1,0 +1,3 @@
+outcome,pseudo_event_date,pre_15min_bins,pseudo_post_15min_bins,mean_pseudo_post_gap_treated_minus_synthetic,pseudo_pre_rmspe,pseudo_post_rmspe,pseudo_post_pre_rmspe_ratio,effective_donor_count
+speed_mph,2024-03-04,1011,1020,0.18575040759632966,2.8022709821725487,2.9872299935473303,1.0660032568411304,4.305793213791228
+mean_zone_log1p_volume,2024-03-04,1011,1020,0.04017113842020761,0.2227778189981507,0.24247182727449187,1.0884020158061816,5.17198373600017

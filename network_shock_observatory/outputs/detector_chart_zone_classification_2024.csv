@@ -1,0 +1,434 @@
+zone_id,road,direction,latitude,longitude,distance_to_bridge_km,analysis_group,is_treatment_geographic,is_control_geographic,pre_rows,pre_speed_coverage,pre_median_volume,donor_not_excluded_road,donor_is_interstate,donor_distance_eligible,donor_speed_coverage_eligible,donor_volume_eligible,donor_not_treatment,donor_not_control,donor_candidate_eligible
+94945,I-695,Inner Loop,39.41266,-76.61633,23.89664230225011,outside,False,False,2099.0,1.0,167.0,False,True,False,True,True,True,True,False
+94946,I-695,Inner Loop,39.41266,-76.61633,23.89664230225011,outside,False,False,2099.0,1.0,942.0,False,True,False,True,True,True,True,False
+94947,I-95,South,39.124156,-76.866309,30.54177401599194,outside,False,False,2096.0,1.0,1305.0,False,True,True,True,True,True,True,False
+94948,I-95,South,39.124156,-76.866309,30.54177401599194,outside,False,False,2096.0,1.0,61.0,False,True,True,True,True,True,True,False
+94951,I-95,North,39.259636,-76.673893,13.693427725159468,treatment,True,False,2098.0,1.0,232.0,False,True,False,True,True,False,True,False
+94952,I-95,North,39.259636,-76.673893,13.693427725159468,treatment,True,False,2098.0,1.0,1096.0,False,True,False,True,True,False,True,False
+94953,I-95,South,39.259636,-76.673893,13.693427725159468,treatment,True,False,2098.0,1.0,977.0,False,True,False,True,True,False,True,False
+94954,I-95,South,39.259636,-76.673893,13.693427725159468,treatment,True,False,2098.0,1.0,117.0,False,True,False,True,True,False,True,False
+94955,I-495,Outer Loop,39.01754,-77.11003,54.429262624866006,donor_candidate,False,False,2096.0,1.0,735.0,True,True,True,True,True,True,True,True
+94956,I-495,Inner Loop,39.01754,-77.11003,54.429262624866006,donor_candidate,False,False,2096.0,1.0,609.0,True,True,True,True,True,True,True,True
+94957,Unknown,Outer Loop,39.018713,-76.924915,40.1422503140146,outside,False,False,1814.0,1.0,129.0,True,False,True,True,True,True,True,False
+94958,I-695,Outer Loop,39.414381,-76.59316,23.534181917187222,outside,False,False,239.0,1.0,1164.0,False,True,False,True,True,True,True,False
+94959,I-695,Inner Loop,39.414381,-76.59316,23.534181917187222,outside,False,False,239.0,1.0,994.0,False,True,False,True,True,True,True,False
+94960,I-95,North,38.99733,-76.89024,39.01838379772932,outside,False,False,2099.0,1.0,1180.0,False,True,True,True,True,True,True,False
+94961,I-95,South,38.99733,-76.89024,39.01838379772932,outside,False,False,2099.0,1.0,1352.0,False,True,True,True,True,True,True,False
+94962,I-695,Outer Loop,39.41847,-76.63478,25.041871978244668,outside,False,False,1936.0,0.9994834710743802,76.0,False,True,False,True,True,True,True,False
+94963,I-95,Outer Loop,39.01746,-76.91199,39.27372050723504,outside,False,False,2068.0,1.0,1381.5,False,True,True,True,True,True,True,False
+94964,I-95,Inner Loop,39.01746,-76.91199,39.27372050723504,outside,False,False,2068.0,1.0,1298.5,False,True,True,True,True,True,True,False
+94996,I-495,Outer Loop,38.980978,-77.172792,61.03629351503783,donor_candidate,False,False,2092.0,1.0,1355.0,True,True,True,True,True,True,True,True
+94997,MD-32,East,39.132709,-76.802494,25.02528724370985,outside,False,False,2099.0,1.0,516.0,True,False,False,True,True,True,True,False
+94998,I-95,South,39.212181,-76.738437,18.031681432008646,outside,False,False,2097.0,1.0,1258.0,False,True,False,True,True,True,True,False
+95002,I-695,East,39.37938,-76.520295,19.00535140337205,outside,False,False,223.0,1.0,855.0,False,True,False,True,True,True,True,False
+95013,Unknown,North,39.01757,-76.92493,40.210580511902656,outside,False,False,1081.0,0.996299722479186,60.0,True,False,True,True,True,True,True,False
+95016,I-95,North,39.172443,-76.798823,23.581797466623957,outside,False,False,2098.0,1.0,1042.0,False,True,False,True,True,True,True,False
+95020,I-695,Outer Loop,39.417436,-76.62972,24.77952620387933,outside,False,False,2099.0,1.0,1178.0,False,True,False,True,True,True,True,False
+95021,I-695,Inner Loop,39.417436,-76.62972,24.77952620387933,outside,False,False,2099.0,1.0,923.0,False,True,False,True,True,True,True,False
+95028,I-95,South,39.32798,-76.52507,13.279229057957705,outside,False,False,2093.0,1.0,1041.0,False,True,False,True,True,True,True,False
+95029,I-95,South,39.32798,-76.52507,13.279229057957705,outside,False,False,2093.0,1.0,129.0,False,True,False,True,True,True,True,False
+95033,I-70,East,39.403486,-77.346916,73.61752425617094,donor_candidate,False,False,2099.0,1.0,436.0,True,True,True,True,True,True,True,True
+95034,Unknown,South,39.017148,-77.016715,47.141687151925055,outside,False,False,841.0,0.995243757431629,177.0,True,False,True,True,True,True,True,False
+95037,I-95,Inner Loop,38.811339,-76.963049,57.9349055142436,outside,False,False,2098.0,1.0,1057.0,False,True,True,True,True,True,True,False
+95038,I-95,Outer Loop,38.811339,-76.963049,57.9349055142436,outside,False,False,2098.0,1.0,993.0,False,True,True,True,True,True,True,False
+95039,I-895,South,39.2202,-76.71412,15.983420542368204,treatment,True,False,2043.0,1.0,165.0,False,True,False,True,True,False,True,False
+95040,I-495,Outer Loop,39.021963,-76.938356,40.947992983483225,donor_candidate,False,False,2099.0,1.0,997.0,True,True,True,True,True,True,True,True
+95042,I-95,North,38.823282,-76.884495,52.70632048772892,outside,False,False,2099.0,1.0,1055.0,False,True,True,True,True,True,True,False
+95043,I-95,South,38.823282,-76.884495,52.70632048772892,outside,False,False,2099.0,1.0,1203.0,False,True,True,True,True,True,True,False
+95044,MD-32,West,39.132709,-76.802494,25.02528724370985,outside,False,False,2099.0,1.0,555.0,True,False,False,True,True,True,True,False
+95045,MD-187,South,39.016795,-77.119533,55.21722924837505,outside,False,False,1162.0,0.9612736660929432,4.0,True,False,True,True,False,True,True,False
+95046,I-97,North,39.100863,-76.628667,14.733433744933274,outside,False,False,2099.0,1.0,604.0,True,True,False,True,True,True,True,False
+95047,I-97,South,39.100863,-76.628667,14.733433744933274,outside,False,False,2099.0,1.0,750.0,True,True,False,True,True,True,True,False
+95049,I-495,Outer Loop,39.01123,-77.06447,51.13255297645566,donor_candidate,False,False,2082.0,1.0,1478.5,True,True,True,True,True,True,True,True
+95050,I-495,Inner Loop,39.01123,-77.06447,51.13255297645566,donor_candidate,False,False,2082.0,1.0,900.0,True,True,True,True,True,True,True,True
+95054,Unknown,Inner Loop,38.94854,-76.859623,40.61647731446631,outside,False,False,2100.0,1.0,886.0,True,False,True,True,True,True,True,False
+95055,Unknown,West,38.94854,-76.859623,40.61647731446631,outside,False,False,2100.0,1.0,32.0,True,False,True,True,True,True,True,False
+95056,Unknown,North,39.014807,-77.015903,47.19808915826675,outside,False,False,2099.0,0.9156741305383516,144.0,True,False,True,True,True,True,True,False
+95057,Unknown,Inner Loop,39.014807,-77.015903,47.19808915826675,outside,False,False,2099.0,1.0,108.0,True,False,True,True,True,True,True,False
+95060,I-95,North,39.207876,-76.746452,18.718581197904328,outside,False,False,45.0,0.9777777777777777,885.0,False,True,False,True,True,True,True,False
+95061,I-495,South,39.018133,-76.954867,42.39414504164078,outside,False,False,2098.0,0.0,0.0,True,True,True,False,False,True,True,False
+95062,I-495,Outer Loop,38.818207,-76.921162,55.05656925292295,donor_candidate,False,False,2098.0,1.0,98.0,True,True,True,True,True,True,True,True
+95073,I-95,South,39.058691,-76.926112,38.07671925091821,outside,False,False,2009.0,1.0,1164.0,False,True,True,True,True,True,True,False
+95074,I-95,South,39.058691,-76.926112,38.07671925091821,outside,False,False,2009.0,1.0,94.0,False,True,True,True,True,True,True,False
+95076,I-495,Inner Loop,38.838335,-76.865983,50.413487075914695,outside,False,False,2055.0,0.08953771289537713,0.0,True,True,True,False,False,True,True,False
+95077,I-495,Inner Loop,38.838335,-76.865983,50.413487075914695,outside,False,False,2055.0,0.4194647201946472,0.0,True,True,True,False,False,True,True,False
+95082,Unknown,Inner Loop,39.015203,-77.017826,47.32563023538681,outside,False,False,772.0,1.0,29.0,True,False,True,True,True,True,True,False
+95089,I-95,South,39.112207,-76.877931,31.920409960589325,outside,False,False,2.0,0.0,0.0,False,True,True,False,False,True,True,False
+95090,Unknown,North,39.015468,-77.099828,53.712358004777855,outside,False,False,2099.0,1.0,396.0,True,False,True,True,True,True,True,False
+95091,I-95,North,38.807018,-76.981543,59.34286771910211,outside,False,False,2093.0,1.0,1230.0,False,True,True,True,True,True,True,False
+95092,I-95,South,38.807018,-76.981543,59.34286771910211,outside,False,False,2093.0,1.0,1019.0,False,True,True,True,True,True,True,False
+95093,I-795,North,39.46434,-76.837291,38.8680856149848,control,False,True,2099.0,1.0,220.0,True,True,True,True,True,True,False,False
+95094,I-495,Inner Loop,38.840958,-76.868207,50.28689881082153,outside,False,False,2008.0,0.0,0.0,True,True,True,False,False,True,True,False
+95095,I-495,Outer Loop,38.818092,-76.916052,54.796267222581044,outside,False,False,599.0,0.1986644407345576,0.0,True,True,True,False,False,True,True,False
+95098,MD-187,South,39.015507,-77.118988,55.229808442370384,outside,False,False,2099.0,1.0,192.0,True,False,True,True,True,True,True,False
+95099,MD-187,East,39.015507,-77.118988,55.229808442370384,outside,False,False,2099.0,0.9866603144354454,24.0,True,False,True,True,True,True,True,False
+95100,MD-187,North,39.015507,-77.118988,55.229808442370384,outside,False,False,2099.0,0.9995235826584088,124.0,True,False,True,True,True,True,True,False
+95105,I-495,North,39.016795,-77.119533,55.21722924837505,donor_candidate,False,False,1161.0,0.9896640826873385,45.0,True,True,True,True,True,True,True,True
+95106,I-495,South,39.016795,-77.119533,55.21722924837505,outside,False,False,1161.0,0.892334194659776,3.0,True,True,True,False,False,True,True,False
+95107,I-495,North,39.016795,-77.119533,55.21722924837505,outside,False,False,1161.0,0.4754521963824289,0.0,True,True,True,False,False,True,True,False
+95110,I-495,Outer Loop,38.840142,-76.864293,50.164929034196255,donor_candidate,False,False,2099.0,0.9995235826584088,178.0,True,True,True,True,True,True,True,True
+95111,I-495,North,38.840142,-76.864293,50.164929034196255,donor_candidate,False,False,2099.0,0.9995235826584088,105.0,True,True,True,True,True,True,True,True
+95112,Unknown,Outer Loop,39.017148,-77.016715,47.141687151925055,outside,False,False,786.0,0.9987277353689568,105.0,True,False,True,True,True,True,True,False
+95113,Unknown,South,39.015733,-77.100505,53.75405333037537,outside,False,False,2099.0,1.0,435.0,True,False,True,True,True,True,True,False
+95117,Unknown,South,39.01871,-76.978218,44.11995128270664,outside,False,False,2070.0,0.9985507246376811,105.0,True,False,True,True,True,True,True,False
+95118,I-95,North,39.040192,-76.936231,39.793050802462766,outside,False,False,2060.0,1.0,1221.5,False,True,True,True,True,True,True,False
+95119,I-695,East,39.390327,-76.71429,25.729065124823826,outside,False,False,2099.0,1.0,1174.0,False,True,False,True,True,True,True,False
+95120,I-495,Inner Loop,38.840958,-76.868207,50.28689881082153,donor_candidate,False,False,128.0,1.0,186.0,True,True,True,True,True,True,True,True
+95121,Unknown,South,39.016805,-76.927877,40.471606928197176,outside,False,False,1955.0,0.8639386189258312,115.0,True,False,True,False,True,True,True,False
+95122,Unknown,North,39.016805,-76.927877,40.471606928197176,outside,False,False,1955.0,0.8634271099744245,22.0,True,False,True,False,True,True,True,False
+95123,I-495,Inner Loop,38.893257,-76.849102,44.63882024001403,donor_candidate,False,False,2097.0,1.0,123.0,True,True,True,True,True,True,True,True
+95124,I-495,West,38.893257,-76.849102,44.63882024001403,outside,False,False,2097.0,0.9904625655698617,8.0,True,True,True,True,False,True,True,False
+95126,I-795,North,39.433957,-76.815629,35.14266310575691,control,False,True,2099.0,0.3696998570747975,7.0,True,True,True,False,False,True,False,False
+95127,I-795,South,39.433957,-76.815629,35.14266310575691,control,False,True,2099.0,0.9995235826584088,289.0,True,True,True,True,True,True,False,False
+95129,Unknown,South,39.012622,-77.04345,49.4317951431512,outside,False,False,2099.0,0.9995235826584088,106.0,True,False,True,True,True,True,True,False
+95130,I-97,North,39.128734,-76.641774,13.154869014021758,outside,False,False,2099.0,1.0,709.0,True,True,False,True,True,True,True,False
+95131,I-97,South,39.128734,-76.641774,13.154869014021758,outside,False,False,2099.0,1.0,670.0,True,True,False,True,True,True,True,False
+95134,I-495,North,39.018133,-76.954867,42.39414504164078,donor_candidate,False,False,429.0,1.0,393.0,True,True,True,True,True,True,True,True
+95135,I-495,East,39.018133,-76.954867,42.39414504164078,donor_candidate,False,False,429.0,1.0,302.0,True,True,True,True,True,True,True,True
+95136,I-270,North,39.03254,-77.13876,56.11094708129239,donor_candidate,False,False,2100.0,1.0,595.0,True,True,True,True,True,True,True,True
+95137,I-270,North,39.03254,-77.13876,56.11094708129239,donor_candidate,False,False,2100.0,1.0,142.0,True,True,True,True,True,True,True,True
+95138,I-97,South,39.191984,-76.6331,9.141683525980335,outside,False,False,2058.0,1.0,722.0,True,True,False,True,True,True,True,False
+95139,I-495,West,39.022822,-76.942448,41.2045561684878,donor_candidate,False,False,2099.0,1.0,816.0,True,True,True,True,True,True,True,True
+95140,I-495,North,39.022822,-76.942448,41.2045561684878,donor_candidate,False,False,2099.0,1.0,445.0,True,True,True,True,True,True,True,True
+95141,Unknown,East,39.01871,-76.978218,44.11995128270664,outside,False,False,2066.0,0.0,0.0,True,False,True,False,False,True,True,False
+95144,I-70,East,39.402684,-77.452455,82.31604774192284,donor_candidate,False,False,2092.0,1.0,546.0,True,True,True,True,True,True,True,True
+95146,Unknown,South,39.003812,-77.077985,52.542596752695026,outside,False,False,2097.0,1.0,330.0,True,False,True,True,True,True,True,False
+95147,Unknown,North,39.003812,-77.077985,52.542596752695026,outside,False,False,2097.0,1.0,448.0,True,False,True,True,True,True,True,False
+95148,I-83,South,39.592806,-76.673118,44.4754721169472,control,False,True,2099.0,1.0,296.0,True,True,True,True,True,True,False,False
+95149,I-83,North,39.592806,-76.673118,44.4754721169472,control,False,True,2099.0,1.0,264.0,True,True,True,True,True,True,False,False
+95150,I-70,East,39.300609,-76.870271,31.098315913038242,donor_candidate,False,False,2099.0,1.0,437.0,True,True,True,True,True,True,True,True
+95153,I-270,North,39.02539,-77.10869,53.98487348338545,donor_candidate,False,False,2100.0,1.0,804.0,True,True,True,True,True,True,True,True
+95154,I-270,South,39.02539,-77.10869,53.98487348338545,donor_candidate,False,False,2100.0,1.0,695.0,True,True,True,True,True,True,True,True
+95156,I-95,North,39.058376,-76.925562,38.04950674646028,outside,False,False,2008.0,1.0,1176.0,False,True,True,True,True,True,True,False
+95163,Unknown,Unknown,39.015283,-77.016687,47.234042363311104,outside,False,False,2099.0,1.0,228.0,True,False,True,True,True,True,True,False
+95164,Unknown,South,39.015283,-77.016687,47.234042363311104,outside,False,False,2099.0,1.0,204.0,True,False,True,True,True,True,True,False
+95165,Unknown,North,39.005433,-77.078702,52.520083313104934,outside,False,False,90.0,1.0,32.5,True,False,True,True,True,True,True,False
+95166,Unknown,South,39.005433,-77.078702,52.520083313104934,outside,False,False,90.0,1.0,48.5,True,False,True,True,True,True,True,False
+95167,US-50,East,38.944995,-76.770519,35.959585149982104,outside,False,False,2100.0,0.8885714285714286,163.0,True,False,True,False,True,True,True,False
+95168,US-50,East,38.944995,-76.770519,35.959585149982104,outside,False,False,2100.0,0.7080952380952381,58.0,True,False,True,False,True,True,True,False
+95169,I-695,Outer Loop,39.20609,-76.614753,7.3766140106096465,outside,False,False,2098.0,1.0,472.0,False,True,False,True,True,True,True,False
+95170,I-695,Inner Loop,39.20609,-76.614753,7.3766140106096465,outside,False,False,2098.0,1.0,348.0,False,True,False,True,True,True,True,False
+95171,I-95,North,38.79662,-77.01084,61.89272242898438,outside,False,False,,,,False,True,True,False,False,True,True,False
+95172,I-95,North,38.79662,-77.01084,61.89272242898438,outside,False,False,,,,False,True,True,False,False,True,True,False
+95173,I-95,South,39.02103,-76.93568,40.80227346939559,outside,False,False,1750.0,1.0,1201.0,False,True,True,True,True,True,True,False
+95176,I-95,South,38.9007,-76.84994,44.036248533592484,outside,False,False,2099.0,1.0,1352.0,False,True,True,True,True,True,True,False
+95177,I-95,West,38.9007,-76.84994,44.036248533592484,outside,False,False,2099.0,1.0,125.0,False,True,True,True,True,True,True,False
+95182,I-95,North,39.06547,-76.910633,36.545073367034895,outside,False,False,68.0,1.0,371.0,False,True,True,True,True,True,True,False
+95191,I-270,North,39.24706,-77.297968,66.35624936573993,donor_candidate,False,False,2099.0,1.0,583.0,True,True,True,True,True,True,True,True
+95194,I-95,South,39.21603,-76.73084,17.39190621595912,outside,False,False,2099.0,1.0,1333.0,False,True,False,True,True,True,True,False
+95199,I-95,South,39.28463,-76.54557,8.570881724389352,treatment,True,False,918.0,0.9989106753812637,886.5,False,True,False,True,True,False,True,False
+95200,Unknown,Inner Loop,39.005433,-77.078702,52.520083313104934,outside,False,False,2068.0,0.9975822050290135,21.0,True,False,True,True,True,True,True,False
+95201,I-95,South,39.173108,-76.799325,23.61184807381351,outside,False,False,2098.0,1.0,1307.0,False,True,False,True,True,True,True,False
+95204,I-695,South,39.36346,-76.74739,25.478307570903997,outside,False,False,2095.0,1.0,942.0,False,True,False,True,True,True,True,False
+95205,I-695,North,39.36346,-76.74739,25.478307570903997,outside,False,False,2095.0,1.0,1099.0,False,True,False,True,True,True,True,False
+95208,US-29,North,39.08552,-76.945909,38.45275464857558,outside,False,False,,,,True,False,True,False,False,True,True,False
+95209,US-29,South,39.08552,-76.945909,38.45275464857558,outside,False,False,,,,True,False,True,False,False,True,True,False
+95210,I-95,South,39.158815,-76.830115,26.52006448307064,outside,False,False,2099.0,1.0,712.0,False,True,False,True,True,True,True,False
+95211,I-95,South,39.29335,-76.5322,9.427322916778667,treatment,True,False,2098.0,1.0,830.0,False,True,False,True,True,False,True,False
+95212,I-95,North,39.29335,-76.5322,9.427322916778667,treatment,True,False,2098.0,1.0,636.0,False,True,False,True,True,False,True,False
+95215,I-95,North,39.111711,-76.877051,31.86765604312168,outside,False,False,2098.0,0.9995233555767398,1014.0,False,True,True,True,True,True,True,False
+95219,I-95,South,39.37096,-76.45977,19.016723912209695,outside,False,False,2061.0,0.0,0.0,False,True,False,False,False,True,True,False
+95220,I-95,North,39.37096,-76.45977,19.016723912209695,outside,False,False,2061.0,0.0,0.0,False,True,False,False,False,True,True,False
+95221,I-95,South,39.37096,-76.45977,19.016723912209695,outside,False,False,2061.0,0.0,0.0,False,True,False,False,False,True,True,False
+95222,I-95,North,39.37096,-76.45977,19.016723912209695,outside,False,False,2061.0,0.0,0.0,False,True,False,False,False,True,True,False
+95225,I-895,North,39.26606,-76.56072,6.942046074966215,treatment,True,False,1625.0,0.9993846153846154,554.0,False,True,False,True,True,False,True,False
+95226,I-895,South,39.26606,-76.56072,6.942046074966215,treatment,True,False,1625.0,1.0,513.0,False,True,False,True,True,False,True,False
+95229,I-95,South,39.20529,-76.75264,19.255437522799312,outside,False,False,2084.0,1.0,1202.5,False,True,False,True,True,True,True,False
+95230,I-95,North,39.20529,-76.75264,19.255437522799312,outside,False,False,2084.0,1.0,1167.0,False,True,False,True,True,True,True,False
+95231,I-95,North,38.92206,-76.8527,42.37003930861712,outside,False,False,2097.0,1.0,1039.0,False,True,True,True,True,True,True,False
+95232,I-95,South,38.92206,-76.8527,42.37003930861712,outside,False,False,2097.0,1.0,1220.0,False,True,True,True,True,True,True,False
+95235,I-95,North,39.31214,-76.53288,11.51749728219666,treatment,True,False,986.0,0.9989858012170385,600.0,False,True,False,True,True,False,True,False
+95236,I-95,South,39.31214,-76.53288,11.51749728219666,treatment,True,False,986.0,0.9989858012170385,680.0,False,True,False,True,True,False,True,False
+95237,I-83,South,39.40024,-76.66377,24.251931724660807,control,False,True,2099.0,1.0,650.0,True,True,False,True,True,True,False,False
+95238,I-83,North,39.40024,-76.66377,24.251931724660807,control,False,True,2099.0,0.9990471653168176,604.0,True,True,False,True,True,True,False,False
+95239,I-95,North,39.34607,-76.50804,15.394113336690896,outside,False,False,1420.0,0.9992957746478873,763.0,False,True,False,True,True,True,True,False
+95240,I-95,North,39.34607,-76.50804,15.394113336690896,outside,False,False,1420.0,0.9985915492957746,140.0,False,True,False,True,True,True,True,False
+95241,I-95,South,39.34607,-76.50804,15.394113336690896,outside,False,False,1420.0,1.0,995.0,False,True,False,True,True,True,True,False
+95242,I-95,South,39.34607,-76.50804,15.394113336690896,outside,False,False,1420.0,0.9992957746478873,155.5,False,True,False,True,True,True,True,False
+95244,I-97,North,39.151858,-76.64549,11.843987877145933,outside,False,False,2075.0,1.0,692.0,True,True,False,True,True,True,True,False
+95245,I-97,South,39.151858,-76.64549,11.843987877145933,outside,False,False,2075.0,1.0,469.0,True,True,False,True,True,True,True,False
+95246,I-695,Outer Loop,39.41199,-76.583516,23.09370780633807,outside,False,False,2097.0,1.0,1084.0,False,True,False,True,True,True,True,False
+95247,I-695,Inner Loop,39.41199,-76.583516,23.09370780633807,outside,False,False,2097.0,1.0,1032.0,False,True,False,True,True,True,True,False
+95248,I-95,South,39.207876,-76.746452,18.718581197904328,outside,False,False,2099.0,1.0,1153.0,False,True,False,True,True,True,True,False
+95249,I-70,West,39.404138,-77.346248,73.58367499565492,donor_candidate,False,False,2099.0,1.0,579.0,True,True,True,True,True,True,True,True
+95250,I-95,North,39.35754,-76.4852,16.988852427896692,outside,False,False,2097.0,1.0,605.0,False,True,False,True,True,True,True,False
+95251,I-95,North,39.35754,-76.4852,16.988852427896692,outside,False,False,2097.0,0.9995231282784931,117.0,False,True,False,True,True,True,True,False
+95252,I-95,South,39.35754,-76.4852,16.988852427896692,outside,False,False,2097.0,1.0,611.0,False,True,False,True,True,True,True,False
+95253,I-95,South,39.35754,-76.4852,16.988852427896692,outside,False,False,2097.0,1.0,146.0,False,True,False,True,True,True,True,False
+95254,I-95,South,39.35754,-76.4852,16.988852427896692,outside,False,False,2097.0,1.0,213.0,False,True,False,True,True,True,True,False
+95257,I-695,Outer Loop,39.39182,-76.53906,20.390820832592976,outside,False,False,1354.0,1.0,915.5,False,True,False,True,True,True,True,False
+95258,I-695,Inner Loop,39.39182,-76.53906,20.390820832592976,outside,False,False,1354.0,1.0,900.5,False,True,False,True,True,True,True,False
+95268,I-695,Outer Loop,39.42083,-76.64961,25.77233544089667,outside,False,False,2099.0,1.0,1580.0,False,True,False,True,True,True,True,False
+95270,I-495,Inner Loop,39.014656,-77.126431,55.85876700409158,donor_candidate,False,False,2099.0,1.0,631.0,True,True,True,True,True,True,True,True
+95271,I-495,Outer Loop,39.014656,-77.126431,55.85876700409158,donor_candidate,False,False,2099.0,1.0,727.0,True,True,True,True,True,True,True,True
+95272,I-895,North,39.24213,-76.57946,5.713487572872782,treatment,True,False,2099.0,1.0,547.0,False,True,False,True,True,False,True,False
+95273,I-895,South,39.24213,-76.57946,5.713487572872782,treatment,True,False,2099.0,1.0,607.0,False,True,False,True,True,False,True,False
+95274,I-95,North,39.2684,-76.55941,7.140349782605982,treatment,True,False,2099.0,1.0,730.0,False,True,False,True,True,False,True,False
+95275,I-95,South,39.2684,-76.55941,7.140349782605982,treatment,True,False,2099.0,1.0,804.0,False,True,False,True,True,False,True,False
+95281,I-95,South,38.937588,-76.855811,41.26832250265513,outside,False,False,1351.0,1.0,1307.0,False,True,True,True,True,True,True,False
+95282,I-95,North,38.937588,-76.855811,41.26832250265513,outside,False,False,1351.0,1.0,1101.0,False,True,True,True,True,True,True,False
+95284,I-83,South,39.38325,-76.66214,22.53915040050683,control,False,True,1916.0,1.0,638.0,True,True,False,True,True,True,False,False
+95285,I-83,North,39.38325,-76.66214,22.53915040050683,control,False,True,1916.0,1.0,637.5,True,True,False,True,True,True,False,False
+95286,US-50,East,38.984098,-76.588949,25.490451365523985,outside,False,False,2098.0,1.0,604.0,True,False,False,True,True,True,True,False
+95287,US-50,West,38.984098,-76.588949,25.490451365523985,outside,False,False,2098.0,1.0,546.0,True,False,False,True,True,True,True,False
+95289,I-95,Outer Loop,38.837669,-76.868192,50.58429695091991,outside,False,False,1173.0,1.0,1229.0,False,True,True,True,True,True,True,False
+95290,I-95,Inner Loop,38.837669,-76.868192,50.58429695091991,outside,False,False,1173.0,1.0,1111.0,False,True,True,True,True,True,True,False
+95291,I-895,North,39.22097,-76.69481,14.333759275590538,treatment,True,False,2099.0,1.0,102.0,False,True,False,True,True,False,True,False
+95292,I-895,South,39.22097,-76.69481,14.333759275590538,treatment,True,False,2099.0,0.9995235826584088,102.0,False,True,False,True,True,False,True,False
+95293,I-95,North,39.33546,-76.51676,14.146795744007195,outside,False,False,2099.0,1.0,98.0,False,True,False,True,True,True,True,False
+95294,I-95,North,39.33546,-76.51676,14.146795744007195,outside,False,False,2099.0,1.0,942.0,False,True,False,True,True,True,True,False
+95297,I-95,North,39.36462,-76.47235,18.025386149750503,outside,False,False,2098.0,1.0,819.0,False,True,False,True,True,True,True,False
+95298,I-95,North,39.36462,-76.47235,18.025386149750503,outside,False,False,2098.0,1.0,120.0,False,True,False,True,True,True,True,False
+95301,I-95,North,38.96809,-76.86806,39.62998465799171,outside,False,False,1631.0,1.0,1415.0,False,True,True,True,True,True,True,False
+95302,I-95,South,38.96809,-76.86806,39.62998465799171,outside,False,False,1631.0,1.0,1285.0,False,True,True,True,True,True,True,False
+95303,I-95,South,39.144471,-76.845276,28.163058071175207,outside,False,False,2096.0,0.9961832061068703,283.5,False,True,False,True,True,True,True,False
+95307,Unknown,Outer Loop,39.015203,-77.017826,47.32563023538681,outside,False,False,2099.0,1.0,276.0,True,False,True,True,True,True,True,False
+95308,Unknown,Outer Loop,39.015203,-77.017826,47.32563023538681,outside,False,False,2099.0,1.0,890.0,True,False,True,True,True,True,True,False
+95309,I-895,South,39.28242,-76.55352,8.471378186505358,treatment,True,False,2065.0,0.9995157384987894,438.0,False,True,False,True,True,False,True,False
+95310,I-895,North,39.28242,-76.55352,8.471378186505358,treatment,True,False,2065.0,1.0,456.0,False,True,False,True,True,False,True,False
+95312,I-95,South,39.061839,-76.919986,37.44784218678412,outside,False,False,2099.0,1.0,1106.0,False,True,True,True,True,True,True,False
+95314,I-83,South,39.482673,-76.665594,32.65457401249203,control,False,True,2099.0,1.0,515.0,True,True,True,True,True,True,False,False
+95325,I-695,Inner Loop,39.32907,-76.48479,13.93053357014921,outside,False,False,1963.0,1.0,410.0,False,True,False,True,True,True,True,False
+95326,I-95,North,39.144144,-76.844094,28.07382498581259,outside,False,False,2096.0,1.0,1341.0,False,True,False,True,True,True,True,False
+95329,MD-187,North,39.016795,-77.119533,55.21722924837505,outside,False,False,1159.0,0.996548748921484,197.0,True,False,True,True,True,True,True,False
+95330,MD-187,South,39.016795,-77.119533,55.21722924837505,outside,False,False,1159.0,0.9956859361518551,224.0,True,False,True,True,True,True,True,False
+95331,I-95,North,39.2706,-76.63945,11.733770950458174,treatment,True,False,2079.0,1.0,1152.0,False,True,False,True,True,False,True,False
+95332,Unknown,North,39.01757,-76.92493,40.210580511902656,outside,False,False,1082.0,0.9981515711645101,84.0,True,False,True,True,True,True,True,False
+95335,I-495,Inner Loop,39.021623,-76.938553,40.981885511104174,donor_candidate,False,False,2099.0,1.0,1114.0,True,True,True,True,True,True,True,True
+95338,I-95,South,39.2706,-76.63945,11.733770950458174,treatment,True,False,2029.0,1.0,857.0,False,True,False,True,True,False,True,False
+95339,I-95,Inner Loop,38.85283,-76.85836,48.717045939614636,outside,False,False,2099.0,1.0,1387.0,False,True,True,True,True,True,True,False
+95340,I-95,Outer Loop,38.85283,-76.85836,48.717045939614636,outside,False,False,2099.0,0.9914244878513578,24.0,False,True,True,True,True,True,True,False
+95342,I-270,North,39.264059,-77.310601,67.58023532123664,donor_candidate,False,False,2096.0,0.9995229007633588,609.0,True,True,True,True,True,True,True,True
+95346,I-95,North,39.105733,-76.885182,32.75567327835211,outside,False,False,83.0,1.0,828.0,False,True,True,True,True,True,True,False
+95347,I-95,North,39.105733,-76.885182,32.75567327835211,outside,False,False,83.0,1.0,129.0,False,True,True,True,True,True,True,False
+95348,I-895,North,39.31414,-76.53808,11.76040505591985,treatment,True,False,1105.0,1.0,553.0,False,True,False,True,True,False,True,False
+95349,I-895,South,39.31414,-76.53808,11.76040505591985,treatment,True,False,1105.0,1.0,324.0,False,True,False,True,True,False,True,False
+95350,MD-2,North,39.266632,-76.615062,9.81438348155668,outside,False,False,2098.0,0.0,0.0,True,False,False,False,False,True,True,False
+95351,MD-2,South,39.266632,-76.615062,9.81438348155668,outside,False,False,2098.0,0.0,0.0,True,False,False,False,False,True,True,False
+95354,I-270,South,39.261425,-77.310164,67.51790329447519,donor_candidate,False,False,2084.0,1.0,378.0,True,True,True,True,True,True,True,True
+95360,I-95,North,39.26933,-76.65974,13.114597688022144,treatment,True,False,1374.0,1.0,1122.5,False,True,False,True,True,False,True,False
+95361,I-95,South,39.26933,-76.65974,13.114597688022144,treatment,True,False,1374.0,1.0,1060.0,False,True,False,True,True,False,True,False
+95366,Unknown,North,39.00726,-77.076403,52.25316188037294,outside,False,False,1541.0,0.9993510707332901,61.0,True,False,True,True,True,True,True,False
+95367,Unknown,South,39.00726,-77.076403,52.25316188037294,outside,False,False,1541.0,0.9993510707332901,187.0,True,False,True,True,True,True,True,False
+95368,Unknown,Outer Loop,39.00726,-77.076403,52.25316188037294,outside,False,False,1541.0,0.9993510707332901,131.0,True,False,True,True,True,True,True,False
+95375,MD-295,West,38.91384,-76.93327,47.86833751996634,outside,False,False,2099.0,1.0,876.0,True,False,True,True,True,True,True,False
+95376,MD-295,East,38.91384,-76.93327,47.86833751996634,outside,False,False,2099.0,1.0,741.0,True,False,True,True,True,True,True,False
+95377,MD-295,East,38.91384,-76.93327,47.86833751996634,outside,False,False,2099.0,1.0,181.0,True,False,True,True,True,True,True,False
+95379,I-695,Outer Loop,39.254053,-76.685333,14.36636923766552,outside,False,False,2099.0,1.0,1308.0,False,True,False,True,True,True,True,False
+95380,I-895,North,39.2292,-76.63448,9.354327398516084,treatment,True,False,1243.0,0.999195494770716,197.0,False,True,False,True,True,False,True,False
+95381,I-895,South,39.2292,-76.63448,9.354327398516084,treatment,True,False,1243.0,0.0,0.0,False,True,False,False,False,False,True,False
+95385,I-95,North,39.192785,-76.770988,20.9087472549696,outside,False,False,2043.0,1.0,1118.0,False,True,False,True,True,True,True,False
+95386,I-95,South,39.065814,-76.912198,36.64996529629412,outside,False,False,68.0,1.0,763.0,False,True,True,True,True,True,True,False
+95387,I-95,South,39.32798,-76.52507,13.279229057957705,outside,False,False,2098.0,1.0,864.0,False,True,False,True,True,True,True,False
+95388,I-95,South,39.32798,-76.52507,13.279229057957705,outside,False,False,2098.0,1.0,120.0,False,True,False,True,True,True,True,False
+95389,I-95,North,39.134544,-76.853254,29.12343810898916,outside,False,False,2011.0,1.0,1346.0,False,True,False,True,True,True,True,False
+95400,I-695,Inner Loop,39.254224,-76.685161,14.359194109711408,outside,False,False,2093.0,1.0,612.0,False,True,False,True,True,True,True,False
+95401,I-95,South,39.086193,-76.896651,34.48653904203623,outside,False,False,1544.0,1.0,1138.0,False,True,True,True,True,True,True,False
+95402,I-95,South,39.086193,-76.896651,34.48653904203623,outside,False,False,1544.0,1.0,95.0,False,True,True,True,True,True,True,False
+95405,I-270,North,39.231908,-77.284456,65.11306433132617,donor_candidate,False,False,2059.0,1.0,579.0,True,True,True,True,True,True,True,True
+95406,I-95,Outer Loop,38.950886,-76.86081,40.5031759506102,outside,False,False,2099.0,1.0,1040.0,False,True,True,True,True,True,True,False
+95407,I-95,Outer Loop,38.950886,-76.86081,40.5031759506102,outside,False,False,2099.0,1.0,482.0,False,True,True,True,True,True,True,False
+95410,I-495,West,39.01644,-76.99914,45.830746447057486,donor_candidate,False,False,2099.0,1.0,1372.0,True,True,True,True,True,True,True,True
+95411,I-495,East,39.01644,-76.99914,45.830746447057486,donor_candidate,False,False,2099.0,1.0,1226.0,True,True,True,True,True,True,True,True
+95415,I-895,North,39.233165,-76.656404,11.29322504650183,treatment,True,False,1092.0,1.0,104.0,False,True,False,True,True,False,True,False
+95416,I-895,South,39.233165,-76.656404,11.29322504650183,treatment,True,False,1092.0,0.7380952380952381,69.0,False,True,False,False,True,False,True,False
+95418,I-95,North,39.211966,-76.738264,18.01629492609411,outside,False,False,2097.0,1.0,1116.0,False,True,False,True,True,True,True,False
+95419,I-895,North,39.24075,-76.60032,7.093031965518497,treatment,True,False,1215.0,1.0,359.0,False,True,False,True,True,False,True,False
+95420,I-895,South,39.24075,-76.60032,7.093031965518497,treatment,True,False,1215.0,0.9983539094650206,81.0,False,True,False,True,True,False,True,False
+95423,MD-295,South,39.076817,-76.824922,29.41321497750298,outside,False,False,2099.0,1.0,626.0,True,False,False,True,True,True,True,False
+95424,MD-295,North,39.076817,-76.824922,29.41321497750298,outside,False,False,2099.0,1.0,710.0,True,False,False,True,True,True,True,False
+95427,I-895,North,39.22733,-76.67757,12.950339888936508,treatment,True,False,2097.0,1.0,59.0,False,True,False,True,True,False,True,False
+95428,I-895,South,39.22733,-76.67757,12.950339888936508,treatment,True,False,2097.0,0.9976156413924654,52.0,False,True,False,True,True,False,True,False
+95429,I-97,North,39.191968,-76.632327,9.076822306941429,outside,False,False,2058.0,1.0,779.5,True,True,False,True,True,True,True,False
+95430,I-95,South,39.26647,-76.59707,8.693339483254237,treatment,True,False,882.0,0.9965986394557823,633.5,False,True,False,True,True,False,True,False
+95431,I-95,North,39.26647,-76.59707,8.693339483254237,treatment,True,False,882.0,0.9954648526077098,462.5,False,True,False,True,True,False,True,False
+95434,I-695,Inner Loop,39.32904,-76.74431,22.853123492102068,outside,False,False,2099.0,1.0,1238.0,False,True,False,True,True,True,True,False
+95435,I-695,Outer Loop,39.32904,-76.74431,22.853123492102068,outside,False,False,2099.0,1.0,1440.0,False,True,False,True,True,True,True,False
+95436,I-95,South,39.135037,-76.853797,29.152817239486446,outside,False,False,2009.0,0.9995022399203584,1248.0,False,True,False,True,True,True,True,False
+95437,I-95,South,39.193053,-76.771514,20.95139232658709,outside,False,False,2043.0,1.0,1270.0,False,True,False,True,True,True,True,False
+95442,I-695,Inner Loop,39.25973,-76.70134,15.878811518693993,outside,False,False,581.0,0.9982788296041308,1225.0,False,True,False,True,True,True,True,False
+95443,I-695,Outer Loop,39.25973,-76.70134,15.878811518693993,outside,False,False,581.0,0.9965576592082617,1368.0,False,True,False,True,True,True,True,False
+95446,I-95,North,39.08599,-76.89628,34.46611023561328,outside,False,False,1882.0,1.0,1160.0,False,True,True,True,True,True,True,False
+95449,I-270,South,39.231334,-77.285141,65.16978563129219,donor_candidate,False,False,2065.0,1.0,602.0,True,True,True,True,True,True,True,True
+102984,I-695,West,39.390327,-76.71429,25.729065124823826,outside,False,False,2099.0,1.0,1137.0,False,True,False,True,True,True,True,False
+103006,I-695,Outer Loop,39.41266,-76.61633,23.89664230225011,outside,False,False,2099.0,1.0,1029.0,False,True,False,True,True,True,True,False
+103007,I-695,Outer Loop,39.41266,-76.61633,23.89664230225011,outside,False,False,2099.0,1.0,118.0,False,True,False,True,True,True,True,False
+112482,I-495,Inner Loop,38.980978,-77.172792,61.03629351503783,donor_candidate,False,False,2092.0,1.0,1270.0,True,True,True,True,True,True,True,True
+119466,MD-295,South,39.05668,-76.839752,31.667779867095863,outside,False,False,9.0,1.0,687.0,True,False,True,True,True,True,True,False
+133164,Unknown,West,38.927875,-75.99533,55.66540399150235,outside,False,False,2090.0,1.0,106.0,True,False,True,True,True,True,True,False
+141348,I-270,South,39.24706,-77.297968,66.35624936573993,donor_candidate,False,False,2099.0,1.0,477.0,True,True,True,True,True,True,True,True
+148475,MD-295,North,38.93343,-76.919062,45.48547969829698,outside,False,False,950.0,0.0,0.0,True,False,True,False,False,True,True,False
+148476,MD-295,North,38.93343,-76.919062,45.48547969829698,outside,False,False,950.0,0.0,0.0,True,False,True,False,False,True,True,False
+148477,MD-295,South,38.93343,-76.919062,45.48547969829698,outside,False,False,950.0,0.0,0.0,True,False,True,False,False,True,True,False
+173187,MD-32,East,39.207717,-76.941826,35.5519637518836,outside,False,False,2098.0,1.0,173.0,True,False,True,True,True,True,True,False
+173188,MD-32,West,39.207717,-76.941826,35.5519637518836,outside,False,False,2098.0,1.0,200.0,True,False,True,True,True,True,True,False
+173189,MD-32,East,39.22953,-76.973396,38.33665481922243,outside,False,False,2099.0,1.0,188.0,True,False,True,True,True,True,True,False
+173190,MD-32,West,39.22953,-76.973396,38.33665481922243,outside,False,False,2099.0,0.9995235826584088,109.0,True,False,True,True,True,True,True,False
+186292,MD-295,South,39.032655,-76.852855,34.09295047340086,outside,False,False,1438.0,0.22739916550764952,0.0,True,False,True,False,False,True,True,False
+186293,MD-295,North,39.032655,-76.852855,34.09295047340086,outside,False,False,1438.0,0.0,0.0,True,False,True,False,False,True,True,False
+191738,I-695,Inner Loop,39.348831,-76.745193,24.264694104056808,outside,False,False,2100.0,1.0,114.0,False,True,False,True,True,True,True,False
+191739,I-695,Inner Loop,39.348831,-76.745193,24.264694104056808,outside,False,False,2100.0,1.0,159.0,False,True,False,True,True,True,True,False
+191747,I-695,Inner Loop,39.348831,-76.745193,24.264694104056808,outside,False,False,2100.0,1.0,1151.5,False,True,False,True,True,True,True,False
+191748,I-695,Outer Loop,39.348831,-76.745193,24.264694104056808,outside,False,False,2100.0,1.0,1228.0,False,True,False,True,True,True,True,False
+191749,I-695,Outer Loop,39.348831,-76.745193,24.264694104056808,outside,False,False,2100.0,1.0,39.0,False,True,False,True,True,True,True,False
+191788,I-695,Inner Loop,39.407168,-76.66816,25.10890281457981,outside,False,False,2096.0,1.0,1058.0,False,True,False,True,True,True,True,False
+192004,MD-404,East,38.927735,-75.999571,55.37145547358607,outside,False,False,1956.0,1.0,104.0,True,False,True,True,True,True,True,False
+192005,US-301,South,39.046524,-76.008542,48.39227951079608,outside,False,False,2100.0,1.0,121.0,True,False,True,True,True,True,True,False
+192006,US-301,North,39.046524,-76.008542,48.39227951079608,outside,False,False,2100.0,0.9442857142857143,6.0,True,False,True,True,False,True,True,False
+192007,US-301,North,39.046524,-76.008542,48.39227951079608,outside,False,False,2100.0,1.0,112.0,True,False,True,True,True,True,True,False
+192008,US-50,West,38.591986,-76.047169,80.25599461357366,outside,False,False,2100.0,1.0,200.0,True,False,True,True,True,True,True,False
+192009,US-50,East,38.591986,-76.047169,80.25599461357366,outside,False,False,2100.0,1.0,205.0,True,False,True,True,True,True,True,False
+192010,MD-90,West,38.38558,-75.068981,156.16588191011505,outside,False,False,2100.0,1.0,83.0,True,False,False,True,True,True,True,False
+192011,MD-90,East,38.38558,-75.068981,156.16588191011505,outside,False,False,2100.0,1.0,97.0,True,False,False,True,True,True,True,False
+192012,US-50,East,38.334356,-75.098318,157.59682915856413,outside,False,False,2100.0,1.0,122.0,True,False,False,True,True,True,True,False
+192013,US-50,West,38.334356,-75.098318,157.59682915856413,outside,False,False,2100.0,1.0,119.0,True,False,False,True,True,True,True,False
+192014,US-50,East,38.38062,-75.294741,141.14289025807997,outside,False,False,2099.0,1.0,148.0,True,False,False,True,True,True,True,False
+192032,US-50,East,38.424587,-75.670019,114.6333182977687,outside,False,False,2100.0,1.0,165.5,True,False,False,True,True,True,True,False
+192033,US-50,West,38.424801,-75.66953,114.64266862818482,outside,False,False,2100.0,1.0,173.0,True,False,False,True,True,True,True,False
+192038,US-301,North,39.046524,-76.008542,48.39227951079608,outside,False,False,2100.0,0.960952380952381,6.0,True,False,True,True,False,True,True,False
+192585,US-50,West,38.981656,-76.331716,30.450880927079613,outside,False,False,2100.0,1.0,474.0,True,False,True,True,True,True,True,False
+192594,I-83,South,39.49758,-76.667668,34.26784862234515,control,False,True,1819.0,1.0,70.0,True,True,True,True,True,True,False,False
+192595,I-83,North,39.49758,-76.667668,34.26784862234515,control,False,True,1819.0,1.0,57.0,True,True,True,True,True,True,False,False
+199450,I-270,North,39.184111,-77.254041,62.52195950273964,donor_candidate,False,False,1954.0,1.0,685.5,True,True,True,True,True,True,True,True
+211178,I-70,West,39.397925,-77.417972,79.31716718338751,donor_candidate,False,False,2100.0,1.0,145.0,True,True,True,True,True,True,True,True
+211179,I-70,West,39.397925,-77.417972,79.31716718338751,donor_candidate,False,False,2100.0,1.0,522.0,True,True,True,True,True,True,True,True
+222941,I-495,Inner Loop,39.005856,-77.077278,52.38880448803392,donor_candidate,False,False,2100.0,1.0,41.0,True,True,True,True,True,True,True,True
+222942,I-495,Inner Loop,39.005856,-77.077278,52.38880448803392,donor_candidate,False,False,2100.0,1.0,189.0,True,True,True,True,True,True,True,True
+222943,I-495,Outer Loop,39.005856,-77.077278,52.38880448803392,donor_candidate,False,False,2100.0,1.0,247.0,True,True,True,True,True,True,True,True
+222944,I-495,Outer Loop,39.005856,-77.077278,52.38880448803392,donor_candidate,False,False,2100.0,0.9966666666666667,22.0,True,True,True,True,True,True,True,True
+223000,I-270,North,39.296171,-77.33407,69.98439948780363,donor_candidate,False,False,2100.0,1.0,610.0,True,True,True,True,True,True,True,True
+223001,I-270,South,39.296171,-77.33407,69.98439948780363,donor_candidate,False,False,2100.0,1.0,381.5,True,True,True,True,True,True,True,True
+223036,MD-90,East,38.37701,-75.19564,148.01134697948976,outside,False,False,2100.0,1.0,88.0,True,False,False,True,True,True,True,False
+223037,MD-90,West,38.37701,-75.19564,148.01134697948976,outside,False,False,2100.0,0.9995238095238095,79.0,True,False,False,True,True,True,True,False
+223055,US-50,East,39.008772,-76.404461,24.689254534315186,outside,False,False,2100.0,0.9719047619047619,418.0,True,False,False,True,True,True,True,False
+223056,I-295,South,38.802653,-77.021958,62.051861654234905,donor_candidate,False,False,2100.0,1.0,631.0,True,True,True,True,True,True,True,True
+223057,I-295,North,38.802653,-77.021958,62.051861654234905,donor_candidate,False,False,2100.0,1.0,429.0,True,True,True,True,True,True,True,True
+223071,US-50,East,38.955519,-76.707139,32.05971268058193,outside,False,False,2062.0,1.0,583.0,True,False,True,True,True,True,True,False
+223075,US-50,East,38.984064,-76.544989,25.00444989933211,outside,False,False,2028.0,1.0,960.0,True,False,False,True,True,True,True,False
+223157,I-97,South,39.052775,-76.627944,19.307146154125196,outside,False,False,1210.0,1.0,804.0,True,True,False,True,True,True,True,False
+223158,US-50,East,39.015894,-76.487619,21.726196201750454,outside,False,False,2100.0,1.0,516.0,True,False,False,True,True,True,True,False
+223159,US-50,East,39.027589,-76.455,21.12092885344205,outside,False,False,2099.0,1.0,480.0,True,False,False,True,True,True,True,False
+223160,US-50,East,39.026133,-76.441019,21.668751744056337,outside,False,False,2100.0,1.0,429.0,True,False,False,True,True,True,True,False
+223185,US-50,East,39.024492,-76.43258,22.10387663179993,outside,False,False,2100.0,1.0,436.5,True,False,False,True,True,True,True,False
+223186,US-50,East,39.021428,-76.420867,22.814871435993663,outside,False,False,2100.0,1.0,437.0,True,False,False,True,True,True,True,False
+223187,US-50,East,39.01535,-76.408675,23.872261803291522,outside,False,False,2046.0,1.0,426.0,True,False,False,True,True,True,True,False
+223188,US-50,West,38.974633,-76.299528,32.706494110622494,outside,False,False,2100.0,1.0,495.0,True,False,True,True,True,True,True,False
+223189,US-50,West,38.975914,-76.291317,33.0289270289559,outside,False,False,2100.0,1.0,468.0,True,False,True,True,True,True,True,False
+223190,US-50,West,38.975675,-76.282394,33.5335529520088,outside,False,False,2100.0,1.0,469.0,True,False,True,True,True,True,True,False
+223303,MD-404,West,38.913801,-75.89162,64.06921723922162,outside,False,False,2018.0,1.0,132.0,True,False,True,True,True,True,True,False
+223304,MD-404,East,38.913801,-75.89162,64.06921723922162,outside,False,False,2018.0,1.0,124.0,True,False,True,True,True,True,True,False
+223307,MD-213,South,39.363019,-75.881274,58.34709430972731,outside,False,False,2100.0,1.0,39.0,True,False,True,True,True,True,True,False
+223308,MD-213,North,39.363019,-75.881274,58.34709430972731,outside,False,False,2100.0,1.0,40.0,True,False,True,True,True,True,True,False
+223361,US-50,East,38.97203,-76.25391,35.4464369248223,outside,False,False,2100.0,1.0,463.0,True,False,True,True,True,True,True,False
+223362,US-50,West,38.97203,-76.25391,35.4464369248223,outside,False,False,2100.0,1.0,524.0,True,False,True,True,True,True,True,False
+223435,US-50,West,38.385279,-75.407103,133.55508308166193,outside,False,False,2100.0,1.0,170.0,True,False,False,True,True,True,True,False
+235011,I-270,South,39.329079,-77.371237,73.7144462476468,donor_candidate,False,False,2082.0,1.0,603.0,True,True,True,True,True,True,True,True
+235012,I-270,North,39.329079,-77.371237,73.7144462476468,donor_candidate,False,False,2082.0,1.0,642.0,True,True,True,True,True,True,True,True
+235024,I-270,North,39.149213,-77.21673,59.62888426266757,donor_candidate,False,False,2100.0,1.0,238.0,True,True,True,True,True,True,True,True
+235025,I-270,North,39.149213,-77.21673,59.62888426266757,donor_candidate,False,False,2100.0,1.0,538.0,True,True,True,True,True,True,True,True
+235026,I-270,North,39.149213,-77.21673,59.62888426266757,donor_candidate,False,False,2100.0,1.0,268.0,True,True,True,True,True,True,True,True
+235028,I-270,South,39.149213,-77.21673,59.62888426266757,donor_candidate,False,False,2100.0,1.0,873.0,True,True,True,True,True,True,True,True
+235029,I-270,South,39.149213,-77.21673,59.62888426266757,donor_candidate,False,False,2100.0,1.0,374.0,True,True,True,True,True,True,True,True
+235031,US-13,North,38.333248,-75.568688,128.0921200308034,outside,False,False,2100.0,1.0,182.5,True,False,False,True,True,True,True,False
+235032,US-13,East,38.333248,-75.568688,128.0921200308034,outside,False,False,2100.0,1.0,28.0,True,False,False,True,True,True,True,False
+235033,US-13,South,38.333589,-75.569238,128.03218493947023,outside,False,False,2100.0,1.0,140.0,True,False,False,True,True,True,True,False
+235034,US-50,East,39.01535,-76.408675,23.872261803291522,outside,False,False,2046.0,0.7971652003910068,2.0,True,False,False,False,False,True,True,False
+235035,US-50,East,39.026133,-76.441019,21.668751744056337,outside,False,False,2100.0,0.9957142857142857,17.0,True,False,False,True,False,True,True,False
+235036,US-50,East,39.015894,-76.487619,21.726196201750454,outside,False,False,2100.0,1.0,117.0,True,False,False,True,True,True,True,False
+235037,US-50,West,38.975675,-76.282394,33.5335529520088,outside,False,False,2100.0,0.9928571428571429,14.0,True,False,True,True,False,True,True,False
+235038,US-50,West,38.975914,-76.291317,33.0289270289559,outside,False,False,2100.0,1.0,64.0,True,False,True,True,True,True,True,False
+236318,US-15,South,39.38294,-77.46415,82.7568461369383,outside,False,False,2100.0,1.0,383.5,True,False,True,True,True,True,True,False
+236319,US-15,North,39.38294,-77.46415,82.7568461369383,outside,False,False,2100.0,1.0,435.0,True,False,True,True,True,True,True,False
+236405,US-50,East,39.020399,-76.477562,21.395977975059417,outside,False,False,2100.0,1.0,640.5,True,False,False,True,True,True,True,False
+236406,US-50,West,39.020399,-76.477562,21.395977975059417,outside,False,False,2100.0,1.0,572.0,True,False,False,True,True,True,True,False
+236408,US-50,West,39.020399,-76.477562,21.395977975059417,outside,False,False,2100.0,0.9666666666666667,10.0,True,False,False,True,False,True,True,False
+236409,US-50,East,39.018609,-76.411781,23.42938089027601,outside,False,False,2100.0,1.0,423.0,True,False,False,True,True,True,True,False
+236410,US-50,West,39.018609,-76.411781,23.42938089027601,outside,False,False,2100.0,1.0,462.5,True,False,False,True,True,True,True,False
+236415,US-50,East,39.020081,-76.415578,23.14119644829378,outside,False,False,2100.0,1.0,431.5,True,False,False,True,True,True,True,False
+236419,I-95,South,39.040329,-76.93703,39.84669321660357,outside,False,False,2065.0,1.0,1276.0,False,True,True,True,True,True,True,False
+236421,US-50,West,38.980431,-76.3265,30.817205220853428,outside,False,False,2100.0,1.0,81.0,True,False,True,True,True,True,True,False
+236422,MD-8,West,38.979953,-76.323447,31.011114796403824,outside,False,False,2100.0,0.9980952380952381,76.0,True,False,True,True,True,True,True,False
+236423,US-50,West,38.978269,-76.318178,31.426240024864484,outside,False,False,2099.0,1.0,135.0,True,False,True,True,True,True,True,False
+236424,US-50,West,38.975925,-76.307803,32.162909124056455,outside,False,False,2100.0,0.9976190476190476,15.0,True,False,True,True,False,True,True,False
+236425,MD-18,West,38.976056,-76.29575,32.78003036178246,outside,False,False,2100.0,1.0,129.0,True,False,True,True,True,True,True,False
+236426,MD-18,East,38.976056,-76.29575,32.78003036178246,outside,False,False,2100.0,1.0,59.0,True,False,True,True,True,True,True,False
+236427,US-50,West,38.974017,-76.175494,40.15256628450642,outside,False,False,2100.0,1.0,480.0,True,False,True,True,True,True,True,False
+236428,US-301,South,38.987675,-76.153644,40.666757697595685,outside,False,False,2100.0,1.0,208.0,True,False,True,True,True,True,True,False
+236429,US-50,West,38.802014,-76.060197,60.71482821236698,outside,False,False,2100.0,0.9133333333333333,5.0,True,False,True,True,False,True,True,False
+236430,US-50,West,38.802014,-76.060197,60.71482821236698,outside,False,False,2100.0,1.0,258.0,True,False,True,True,True,True,True,False
+236432,MD-303,West,38.937067,-76.0488,51.2976395156623,outside,False,False,2100.0,1.0,111.0,True,False,True,True,True,True,True,False
+236606,US-50,East,38.960581,-76.656655,29.691593104929495,outside,False,False,2011.0,1.0,525.0,True,False,False,True,True,True,True,False
+236607,US-50,West,38.960581,-76.656655,29.691593104929495,outside,False,False,2011.0,1.0,507.0,True,False,False,True,True,True,True,False
+236608,US-50,East,38.993883,-76.516075,23.902321442633248,outside,False,False,2100.0,0.9995238095238095,692.5,True,False,False,True,True,True,True,False
+236609,US-50,West,38.993883,-76.516075,23.902321442633248,outside,False,False,2100.0,1.0,863.0,True,False,False,True,True,True,True,False
+236778,I-695,Inner Loop,39.294198,-76.742137,20.658619997663816,outside,False,False,2098.0,0.0,0.0,False,True,False,False,False,True,True,False
+236779,I-695,Outer Loop,39.294198,-76.742137,20.658619997663816,outside,False,False,2098.0,0.0,0.0,False,True,False,False,False,True,True,False
+236780,I-695,Inner Loop,39.294198,-76.742137,20.658619997663816,outside,False,False,2098.0,0.0,0.0,False,True,False,False,False,True,True,False
+236801,US-50,West,38.9848,-76.5762,25.213818603687663,outside,False,False,2100.0,1.0,127.0,True,False,False,True,True,True,True,False
+236802,US-50,West,38.9848,-76.5762,25.213818603687663,outside,False,False,2100.0,1.0,389.5,True,False,False,True,True,True,True,False
+236803,US-50,East,38.9848,-76.5762,25.213818603687663,outside,False,False,2100.0,1.0,432.0,True,False,False,True,True,True,True,False
+236804,US-50,East,38.9848,-76.5762,25.213818603687663,outside,False,False,2100.0,1.0,120.0,True,False,False,True,True,True,True,False
+236843,US-50,West,38.978269,-76.318178,31.426240024864484,outside,False,False,2099.0,1.0,429.0,True,False,True,True,True,True,True,False
+236844,US-50,West,38.980431,-76.3265,30.817205220853428,outside,False,False,2100.0,1.0,402.0,True,False,True,True,True,True,True,False
+236845,US-50,West,38.975925,-76.307803,32.162909124056455,outside,False,False,2100.0,1.0,511.5,True,False,True,True,True,True,True,False
+236852,I-795,North,39.451125,-76.830541,37.403412972670324,control,False,True,2091.0,1.0,276.0,True,True,True,True,True,True,False,False
+236853,I-795,South,39.451125,-76.830541,37.403412972670324,control,False,True,2091.0,1.0,268.0,True,True,True,True,True,True,False,False
+236858,MD-140,East,39.476922,-76.844667,40.325440470481645,outside,False,False,2100.0,0.9976190476190476,13.0,True,False,True,True,False,True,True,False
+236859,MD-140,South,39.476922,-76.844667,40.325440470481645,outside,False,False,2100.0,1.0,43.0,True,False,True,True,True,True,True,False
+236860,MD-140,West,39.476922,-76.844667,40.325440470481645,outside,False,False,2100.0,1.0,55.0,True,False,True,True,True,True,True,False
+236910,I-83,North,39.549507,-76.666725,39.70732784911266,control,False,True,2100.0,1.0,332.0,True,True,True,True,True,True,False,False
+236911,I-83,North,39.549507,-76.666725,39.70732784911266,control,False,True,2100.0,1.0,323.5,True,True,True,True,True,True,False,False
+236912,I-83,North,39.549507,-76.666725,39.70732784911266,control,False,True,2100.0,1.0,20.0,True,True,True,True,True,True,False,False
+236933,I-83,North,39.456926,-76.650002,29.50262589943594,control,False,True,2100.0,1.0,65.0,True,True,False,True,True,True,False,False
+236934,I-83,North,39.456926,-76.650002,29.50262589943594,control,False,True,2100.0,1.0,647.5,True,True,False,True,True,True,False,False
+236935,I-83,South,39.456926,-76.650002,29.50262589943594,control,False,True,2100.0,1.0,482.0,True,True,False,True,True,True,False,False
+236936,I-83,South,39.456926,-76.650002,29.50262589943594,control,False,True,2100.0,1.0,147.0,True,True,False,True,True,True,False,False
+237099,I-270,South,39.027398,-77.112112,54.17427847910853,donor_candidate,False,False,2100.0,1.0,740.0,True,True,True,True,True,True,True,True
+237100,I-270,North,39.027398,-77.112112,54.17427847910853,donor_candidate,False,False,2100.0,1.0,836.0,True,True,True,True,True,True,True,True
+237247,I-695,Outer Loop,39.407168,-76.66816,25.10890281457981,outside,False,False,2096.0,1.0,1063.5,False,True,False,True,True,True,True,False
+237248,I-270,South,39.277461,-77.323292,68.8120957805574,donor_candidate,False,False,2100.0,1.0,586.0,True,True,True,True,True,True,True,True
+237249,I-270,North,39.277461,-77.323292,68.8120957805574,donor_candidate,False,False,2100.0,1.0,615.5,True,True,True,True,True,True,True,True
+237250,I-270,North,39.39407,-77.420527,79.41879177285307,donor_candidate,False,False,2100.0,1.0,420.0,True,True,True,True,True,True,True,True
+237251,I-270,South,39.39407,-77.420527,79.41879177285307,donor_candidate,False,False,2100.0,1.0,511.0,True,True,True,True,True,True,True,True
+237270,I-95,Inner Loop,38.842852,-76.864583,49.93333242274605,outside,False,False,2100.0,1.0,1480.0,False,True,True,True,True,True,True,False
+237271,I-95,Outer Loop,38.842852,-76.864583,49.93333242274605,outside,False,False,2100.0,1.0,1314.0,False,True,True,True,True,True,True,False
+237272,I-97,North,39.181483,-76.632706,9.415609269092712,outside,False,False,2002.0,1.0,269.5,True,True,False,True,True,True,True,False
+237273,I-97,South,39.181483,-76.632706,9.415609269092712,outside,False,False,2002.0,1.0,291.0,True,True,False,True,True,True,True,False
+237274,I-97,North,39.181483,-76.632706,9.415609269092712,outside,False,False,2002.0,1.0,258.0,True,True,False,True,True,True,True,False
+237275,I-97,South,39.181483,-76.632706,9.415609269092712,outside,False,False,2002.0,1.0,261.0,True,True,False,True,True,True,True,False
+237276,I-97,South,39.181483,-76.632706,9.415609269092712,outside,False,False,2002.0,1.0,283.0,True,True,False,True,True,True,True,False
+237277,I-97,South,39.181483,-76.632706,9.415609269092712,outside,False,False,2002.0,0.9975024975024975,172.0,True,True,False,True,True,True,True,False
+237278,US-50,West,38.971934,-76.122976,43.836730116567736,outside,False,False,2014.0,1.0,282.0,True,False,True,True,True,True,True,False
+237279,US-50,East,38.971934,-76.122976,43.836730116567736,outside,False,False,2014.0,1.0,271.0,True,False,True,True,True,True,True,False
+237322,I-270,North,39.339593,-77.383125,74.93402629149168,donor_candidate,False,False,2080.0,1.0,634.0,True,True,True,True,True,True,True,True
+237323,I-270,South,39.339593,-77.383125,74.93402629149168,donor_candidate,False,False,2080.0,1.0,602.5,True,True,True,True,True,True,True,True
+237326,I-270,North,39.350638,-77.392549,75.96995914021961,donor_candidate,False,False,2096.0,1.0,635.0,True,True,True,True,True,True,True,True
+237327,I-270,South,39.350638,-77.392549,75.96995914021961,donor_candidate,False,False,2096.0,1.0,604.0,True,True,True,True,True,True,True,True
+237370,US-50,East,38.955221,-76.716051,32.46402420815653,outside,False,False,2100.0,1.0,473.0,True,False,True,True,True,True,True,False
+237371,US-50,West,38.955221,-76.716051,32.46402420815653,outside,False,False,2100.0,1.0,452.0,True,False,True,True,True,True,True,False
+237384,US-50,West,39.014515,-76.490525,21.837735728912474,outside,False,False,2100.0,1.0,602.0,True,False,False,True,True,True,True,False
+237385,US-50,East,39.014515,-76.490525,21.837735728912474,outside,False,False,2100.0,1.0,516.5,True,False,False,True,True,True,True,False
+237422,I-70,East,39.397925,-77.417972,79.31716718338751,donor_candidate,False,False,2100.0,1.0,659.0,True,True,True,True,True,True,True,True
+237423,I-70,East,39.397925,-77.417972,79.31716718338751,donor_candidate,False,False,2100.0,1.0,116.0,True,True,True,True,True,True,True,True
+237426,I-270,South,39.379589,-77.408084,77.98478757098353,donor_candidate,False,False,2100.0,1.0,213.0,True,True,True,True,True,True,True,True
+237427,I-270,South,39.379589,-77.408084,77.98478757098353,donor_candidate,False,False,2100.0,1.0,276.0,True,True,True,True,True,True,True,True
+237428,I-270,North,39.379589,-77.408084,77.98478757098353,donor_candidate,False,False,2100.0,1.0,252.0,True,True,True,True,True,True,True,True
+237429,I-270,Unknown,39.379589,-77.408084,77.98478757098353,donor_candidate,False,False,2100.0,1.0,193.0,True,True,True,True,True,True,True,True
+237430,I-270,North,39.379589,-77.408084,77.98478757098353,donor_candidate,False,False,2100.0,1.0,138.0,True,True,True,True,True,True,True,True
+237469,US-29,North,39.16754,-76.88445,30.955622415611362,outside,False,False,2100.0,1.0,238.0,True,False,True,True,True,True,True,False
+237470,US-29,South,39.16754,-76.88445,30.955622415611362,outside,False,False,2100.0,1.0,250.0,True,False,True,True,True,True,True,False
+237471,US-29,North,39.16754,-76.88445,30.955622415611362,outside,False,False,2100.0,0.9971428571428571,50.0,True,False,True,True,True,True,True,False
+237472,US-29,South,39.16754,-76.88445,30.955622415611362,outside,False,False,2100.0,1.0,138.0,True,False,True,True,True,True,True,False
+237473,US-29,South,39.16754,-76.88445,30.955622415611362,outside,False,False,2100.0,1.0,168.0,True,False,True,True,True,True,True,False
+237474,US-29,South,39.16754,-76.88445,30.955622415611362,outside,False,False,2100.0,1.0,120.0,True,False,True,True,True,True,True,False
+237642,I-70,West,39.61602,-77.78448,116.9678150970003,outside,False,False,2100.0,1.0,115.0,True,True,False,True,True,True,True,False
+237643,I-70,West,39.61602,-77.78448,116.9678150970003,outside,False,False,2100.0,1.0,94.0,True,True,False,True,True,True,True,False
+237644,I-70,East,39.61602,-77.78448,116.9678150970003,outside,False,False,2100.0,0.9995238095238095,95.0,True,True,False,True,True,True,True,False
+237645,I-70,East,39.61602,-77.78448,116.9678150970003,outside,False,False,2100.0,1.0,96.0,True,True,False,True,True,True,True,False
+237646,I-70,East,39.61602,-77.78448,116.9678150970003,outside,False,False,2100.0,1.0,89.0,True,True,False,True,True,True,True,False
+238089,MD-32,North,39.11427,-76.777616,23.848259590395912,outside,False,False,,,,True,False,False,False,False,True,True,False
+238090,MD-32,North,39.11427,-76.777616,23.848259590395912,outside,False,False,,,,True,False,False,False,False,True,True,False
+238091,MD-32,South,39.11427,-76.777616,23.848259590395912,outside,False,False,,,,True,False,False,False,False,True,True,False
+238092,MD-32,South,39.11427,-76.777616,23.848259590395912,outside,False,False,,,,True,False,False,False,False,True,True,False
+238093,MD-32,South,39.114278,-76.777893,23.86931811157116,outside,False,False,,,,True,False,False,False,False,True,True,False
+238094,MD-32,South,39.114278,-76.777893,23.86931811157116,outside,False,False,,,,True,False,False,False,False,True,True,False

@@ -1,0 +1,3 @@
+outcome,conditioning,pre_15min_bins_retained,post_15min_bins_retained,post_15min_bins_excluded,mean_gap_treated_minus_synthetic_full_post_retained_bins,pre_rmspe,post_rmspe,post_pre_rmspe_ratio,effective_donor_count,approximate_percent_change_from_gap
+speed_mph,CHART treatment-route acute severe-context bins excluded (valid duration ≤24 hours),1285,721,634,-4.577312471306653,2.681869299874605,7.0371939444567495,2.6239884042021675,3.975030219018797,
+mean_zone_log1p_volume,CHART treatment-route acute severe-context bins excluded (valid duration ≤24 hours),1285,721,634,0.10184629627509564,0.22867933467660104,0.26361298673243444,1.1527626101643014,5.324057482302072,10.721327584363705

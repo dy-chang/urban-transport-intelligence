@@ -1,0 +1,324 @@
+{
+  "support": [
+    {
+      "period": "post",
+      "all_bins": 1355,
+      "nonsevere_bins": 0,
+      "severe_bins": 1355,
+      "share_severe": 1.0,
+      "mean_active_roadwork": 44.025830258302584,
+      "mean_lane_closure_events": 44.503321033210334
+    },
+    {
+      "period": "pre",
+      "all_bins": 2099,
+      "nonsevere_bins": 0,
+      "severe_bins": 2099,
+      "share_severe": 1.0,
+      "mean_active_roadwork": 33.77941877084326,
+      "mean_lane_closure_events": 33.599333015721776
+    }
+  ],
+  "longest_treatment_severe_events": [
+    {
+      "event_id": "2024_30809",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-895 SOUTH PRIOR TO EXIT 8A SHELL RD MM 8.2 - 7.2",
+      "start_local": "2024-02-12 09:20:00",
+      "closed_local": "2025-01-01 10:27:00",
+      "duration_hours": 7777.116666666667,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_26651",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH AT EXIT 53 I 395 CAL RIPKEN WAY (SB)",
+      "start_local": "2024-04-10 20:18:00",
+      "closed_local": "2024-10-31 05:00:00",
+      "duration_hours": 4880.7,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_43612",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH PAST EXIT 56 KEITH AVE (SB) MM 56.4-55.8",
+      "start_local": "2024-03-01 08:20:00",
+      "closed_local": "2024-08-31 17:00:00",
+      "duration_hours": 4400.666666666667,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_11738",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-895 NORTH PAST BALTIMORE WASHINGTON PKWY MM 5.0 - 6.5",
+      "start_local": "2024-01-04 09:05:00",
+      "closed_local": "2024-07-01 14:30:00",
+      "duration_hours": 4301.416666666667,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_19173",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH AT EXIT 53 I 395 CAL RIPKEN WAY (NB) EXIT RAMP",
+      "start_local": "2024-01-21 20:59:00",
+      "closed_local": "2024-06-30 05:00:00",
+      "duration_hours": 3848.016666666667,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_13980",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH AT EXIT 53 I 395 CAL RIPKEN WAY (NB) RAMP MM 52.3",
+      "start_local": "2024-01-30 09:54:00",
+      "closed_local": "2024-06-30 14:30:00",
+      "duration_hours": 3652.6,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_35894",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH PAST EXIT 62 I 895 HARBOR TUNNEL THRUWAY (MM 61.09 TO 56.51)",
+      "start_local": "2024-02-19 09:31:00",
+      "closed_local": "2024-06-30 14:30:00",
+      "duration_hours": 3172.983333333333,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_31881",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PRIOR TO EXIT 59 MD 150 EASTERN AVE (NB) M.M.58.0-58.8",
+      "start_local": "2024-02-22 09:36:00",
+      "closed_local": "2024-06-30 14:30:00",
+      "duration_hours": 3100.9,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_32485",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH PAST EXIT 59 MD 150 EASTERN AVE (SB) M.M.58.8-58.0",
+      "start_local": "2024-02-22 09:37:00",
+      "closed_local": "2024-06-30 14:30:00",
+      "duration_hours": 3100.883333333333,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_34478",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 57 INTERSTATE AVE (NB) MM 57.7 TO 58.9",
+      "start_local": "2024-02-25 20:50:00",
+      "closed_local": "2024-06-30 09:00:00",
+      "duration_hours": 3012.1666666666665,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_32872",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH AT EXIT 57 O'DONNELL ST (SB) RAMP",
+      "start_local": "2024-02-29 21:08:00",
+      "closed_local": "2024-06-30 05:00:00",
+      "duration_hours": 2911.866666666667,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_39784",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 59 MD 150 EASTERN AVE (NB) MM 58.5 TO 58.9",
+      "start_local": "2024-03-03 21:00:00",
+      "closed_local": "2024-06-30 07:00:00",
+      "duration_hours": 2842.0,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_43842",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH AT EXIT 62 I 895 HARBOR TUNNEL THRUWAY (SB) (MM 60.0 TO 58.3)",
+      "start_local": "2024-03-10 19:51:00",
+      "closed_local": "2024-06-30 05:00:00",
+      "duration_hours": 2673.15,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_43681",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 67 MD 43 WHITE MARSH BLVD (NB) MM 69.1 TO 73.4",
+      "start_local": "2024-03-14 20:28:00",
+      "closed_local": "2024-06-30 05:00:00",
+      "duration_hours": 2576.5333333333333,
+      "Max Lanes Closed": 3.0
+    },
+    {
+      "event_id": "2024_37467",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 58 DUNDALK AVE (NB) MM 58.1-60.0",
+      "start_local": "2024-03-19 20:00:00",
+      "closed_local": "2024-06-30 07:00:00",
+      "duration_hours": 2459.0,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_38166",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 58 DUNDALK AVE (NB) MM 58.1 TO 60.0",
+      "start_local": "2024-03-19 21:07:00",
+      "closed_local": "2024-06-30 05:00:00",
+      "duration_hours": 2455.883333333333,
+      "Max Lanes Closed": 3.0
+    },
+    {
+      "event_id": "2024_44876",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH PRIOR TO EXIT 59 MD 150 EASTERN AVE (SB) MM. 59.9 - MM. 58.0",
+      "start_local": "2024-03-21 20:46:00",
+      "closed_local": "2024-06-30 05:00:00",
+      "duration_hours": 2408.233333333333,
+      "Max Lanes Closed": 3.0
+    },
+    {
+      "event_id": "2024_37177",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PRIOR TO EXIT 64 I 695 BALTIMORE BELTWAY MM 63.2-63.3",
+      "start_local": "2024-03-14 09:23:00",
+      "closed_local": "2024-06-13 13:07:00",
+      "duration_hours": 2187.733333333333,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_39469",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PRIOR TO EXIT 74 MD 152 MOUNTAIN RD (NB) MM 61.1 TO 73.4",
+      "start_local": "2024-03-14 23:34:00",
+      "closed_local": "2024-06-12 14:42:00",
+      "duration_hours": 2151.133333333333,
+      "Max Lanes Closed": 4.0
+    },
+    {
+      "event_id": "2024_42661",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 67 MD 43 WHITE MARSH BLVD (NB) MM 69.7 TO 72.5",
+      "start_local": "2024-03-19 22:18:00",
+      "closed_local": "2024-06-13 10:17:00",
+      "duration_hours": 2051.983333333333,
+      "Max Lanes Closed": 3.0
+    },
+    {
+      "event_id": "2024_27345",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 57 INTERSTATE AVE (NB) (MM 57.8 TO 58.3)",
+      "start_local": "2024-04-07 21:30:00",
+      "closed_local": "2024-06-30 07:00:00",
+      "duration_hours": 2001.5,
+      "Max Lanes Closed": 1.0
+    },
+    {
+      "event_id": "2024_36693",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH PAST EXIT 62 I 895 HARBOR TUNNEL THRUWAY (SB) MM 61.3 TO 59.0",
+      "start_local": "2024-02-08 20:15:00",
+      "closed_local": "2024-04-30 05:00:00",
+      "duration_hours": 1952.75,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_20231",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 50A US 1 CATON AVE (NB) MM 50.0-52.0",
+      "start_local": "2024-04-10 20:14:00",
+      "closed_local": "2024-06-25 05:00:00",
+      "duration_hours": 1808.7666666666667,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_22331",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PRIOR TO EXIT 50A US 1 CATON AVE (MM) 50.0 - 52.0",
+      "start_local": "2024-04-14 21:16:00",
+      "closed_local": "2024-06-25 05:00:00",
+      "duration_hours": 1711.7333333333333,
+      "Max Lanes Closed": 3.0
+    },
+    {
+      "event_id": "2024_26154",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 SOUTH EXPRESS TOLL LANES MM 63.7 - 62.7",
+      "start_local": "2024-04-23 09:19:00",
+      "closed_local": "2024-06-30 16:00:00",
+      "duration_hours": 1638.6833333333334,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_25559",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 67 MD 43 WHITE MARSH BLVD MM (67.2 TO 68.5)",
+      "start_local": "2024-04-07 21:55:00",
+      "closed_local": "2024-06-12 13:50:00",
+      "duration_hours": 1575.9166666666667,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_24344",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 67 MD 43 WHITE MARSH BLVD (NB) MM 65.9-69.9",
+      "start_local": "2024-04-08 20:30:00",
+      "closed_local": "2024-06-13 09:29:00",
+      "duration_hours": 1572.9833333333333,
+      "Max Lanes Closed": 3.0
+    },
+    {
+      "event_id": "2024_23490",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PRIOR TO EXIT 67 MD 43 WHITE MARSH BLVD (NB) (MM 65.9-73.5)",
+      "start_local": "2024-04-08 22:09:00",
+      "closed_local": "2024-06-13 09:32:00",
+      "duration_hours": 1571.3833333333334,
+      "Max Lanes Closed": 4.0
+    },
+    {
+      "event_id": "2024_38298",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PRIOR TO EXIT 59 MD 150 EASTERN AVE (MM 57.7 TO 58.6)",
+      "start_local": "2024-03-21 07:57:00",
+      "closed_local": "2024-05-24 14:30:00",
+      "duration_hours": 1542.55,
+      "Max Lanes Closed": 2.0
+    },
+    {
+      "event_id": "2024_25647",
+      "Standardized Type": "Road Maintenance Operations",
+      "Agency-specific Type": "Planned Roadway Closure",
+      "Location": "I-95 NORTH PAST EXIT 67 MD 43 WHITE MARSH BLVD (NB) (MM 66.8 68.8)",
+      "start_local": "2024-04-10 22:08:00",
+      "closed_local": "2024-06-12 13:53:00",
+      "duration_hours": 1503.75,
+      "Max Lanes Closed": 3.0
+    }
+  ]
+}

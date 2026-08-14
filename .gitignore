@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime public-data cache and generated planning products
+travel_demand_gis/data/*.csv
+travel_demand_gis/data/*.zip
+travel_demand_gis/data/*.gpkg
+travel_demand_gis/data/*.gz
+travel_demand_gis/outputs/*
+!travel_demand_gis/outputs/.gitkeep
+
+# Local environment
+.venv/
+.env
+
+# Raw Chicago crash-data cache; derived outputs are intentionally versioned
+crash_statistics/data/*.csv
+crash_statistics/data/*.csv.gz
+crash_statistics/data/*.parquet
+
+# SUMO public-data runtime cache and per-run logs
+sumo_public_ops/data/raw/*
+!sumo_public_ops/data/raw/.gitkeep
+sumo_public_ops/outputs/runs/
+
+# Key Bridge detector–CHART study: raw/proprietary working copies and large derived panels
+.audit_data/
+.drive_data_audit/
+.event_study_data/
+cache/
+network_shock_observatory/outputs/*.parquet
+network_shock_observatory/outputs/event_panel_*.parquet
+network_shock_observatory/outputs/scm_zone_time_input_2024.parquet
+network_shock_observatory/outputs/detector_chart_zone_time_2024.parquet
+network_shock_observatory/outputs/chart_route_burden_15min_2024.parquet
+network_shock_observatory/outputs/detector_chart_panel_build_stdout.txt
+network_shock_observatory/outputs/detector_chart_panel_build_stderr.txt
+network_shock_observatory/outputs/true_scm_run_stdout.txt
+network_shock_observatory/outputs/true_scm_run_stderr.txt
+network_shock_observatory/outputs/chart_sensitivity_run_stdout.txt
+network_shock_observatory/outputs/chart_sensitivity_run_stderr.txt
+network_shock_observatory/outputs/*_stdout.txt

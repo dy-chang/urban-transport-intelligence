@@ -1,0 +1,119 @@
+{
+  "detector_window": {
+    "start": "2024-02-12 05:00:00",
+    "end_exclusive": "2024-04-23 22:00:00",
+    "n_15min_bins": 3524,
+    "declared_weekday_0500_2145_bins": 3536,
+    "global_detector_bins_missing_no_imputation": 12,
+    "first_global_detector_bins_missing": [
+      "2024-02-21 10:45:00",
+      "2024-02-21 11:00:00",
+      "2024-02-21 11:15:00",
+      "2024-02-21 11:30:00",
+      "2024-02-21 11:45:00",
+      "2024-02-21 12:00:00",
+      "2024-02-21 12:15:00",
+      "2024-02-21 12:30:00",
+      "2024-04-15 16:15:00",
+      "2024-04-15 16:30:00"
+    ],
+    "unexpected_global_detector_bins": 0
+  },
+  "detector_rows_weekdays": 1333065,
+  "zone_group_counts": {
+    "outside": 305,
+    "donor_candidate": 71,
+    "treatment": 36,
+    "control": 21
+  },
+  "donor_candidate_eligible_count": 71,
+  "zone_quality_by_group": {
+    "control": {
+      "zones": 21,
+      "median_pre_speed_coverage": 1.0,
+      "median_pre_volume": 289.0
+    },
+    "donor_candidate": {
+      "zones": 71,
+      "median_pre_speed_coverage": 1.0,
+      "median_pre_volume": 579.0
+    },
+    "outside": {
+      "zones": 305,
+      "median_pre_speed_coverage": 1.0,
+      "median_pre_volume": 348.0
+    },
+    "treatment": {
+      "zones": 36,
+      "median_pre_speed_coverage": 1.0,
+      "median_pre_volume": 530.0
+    }
+  },
+  "chart_2024": {
+    "year": 2024,
+    "input_events": 106217,
+    "valid_start": 106217,
+    "valid_closed": 106203,
+    "negative_duration": 1,
+    "route_matched_all_dates": 17984,
+    "route_matched_window_valid_duration": 3160,
+    "route_context_counts_window": {
+      "treatment_route_context": 2849,
+      "control_route_context": 311
+    },
+    "acute_duration_threshold_hours": 24.0,
+    "acute_severe_context_events_window": 918,
+    "long_duration_severe_context_events_window": 113,
+    "standardized_type_counts_window": {
+      "Disabled Vehicle": 1911,
+      "Collision": 471,
+      "Obstructions": 269,
+      "Incident": 184,
+      "Road Maintenance Operations": 134,
+      "Injuries Involved": 87,
+      "Emergency Roadwork": 44,
+      "Vehicle On Fire": 17,
+      "Alert": 16,
+      "Medical Emergency": 15,
+      "Animal Struck": 4,
+      "Winter Road Report": 3,
+      "Traffic Signal Not Working": 2,
+      "Congestion": 2,
+      "Special Event": 1
+    },
+    "location_matching_rule": "primary-road match only. I-895 and I-795 are full-facility route contexts; I-95 and I-83 also require a Baltimore study-segment exit/milepost/landmark match. Event is not assigned to an individual detector zone."
+  },
+  "chart_2023_seasonal": {
+    "year": 2023,
+    "input_events": 108964,
+    "valid_start": 108964,
+    "valid_closed": 108963,
+    "negative_duration": 0,
+    "route_matched_all_dates": 14813,
+    "route_matched_window_valid_duration": 1255,
+    "route_context_counts_window": {
+      "treatment_route_context": 1093,
+      "control_route_context": 162
+    },
+    "acute_duration_threshold_hours": 24.0,
+    "acute_severe_context_events_window": 337,
+    "long_duration_severe_context_events_window": 89,
+    "standardized_type_counts_window": {
+      "Disabled Vehicle": 691,
+      "Collision": 172,
+      "Obstructions": 154,
+      "Road Maintenance Operations": 97,
+      "Incident": 64,
+      "Injuries Involved": 37,
+      "Vehicle On Fire": 10,
+      "Medical Emergency": 9,
+      "Emergency Roadwork": 8,
+      "Animal Struck": 7,
+      "Alert": 6
+    },
+    "location_matching_rule": "primary-road match only. I-895 and I-795 are full-facility route contexts; I-95 and I-83 also require a Baltimore study-segment exit/milepost/landmark match. Event is not assigned to an individual detector zone."
+  },
+  "join_boundary": "CHART variables are conservatively matched route-segment context measures created from primary-road location text; they are not detector-zone exposures.",
+  "zero_filling_rule": "A zero burden means no valid-duration event with a direct route-token match was active in the bin. It does not prove no incident occurred on the roadway.",
+  "severe_context_definition": "All-duration severe context is standardized roadwork/construction/maintenance OR a CHART event with reported positive/textual lane closure. Acute severe context additionally requires valid CHART duration of 24 hours or less; multi-month planned-roadway-closure records remain in the inventory but are not treated as active acute incident exposure. Neither measure is included in the main total-effect SCM outcome model."
+}
