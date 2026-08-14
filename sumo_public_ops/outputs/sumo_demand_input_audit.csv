@@ -1,0 +1,17 @@
+begin_s,end_s,movement,vehicles_15min,input_class,assumption
+0,900,north_to_south,241,observed_ATR,NYC DOT ATR observed directional count
+0,900,south_to_north,133,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+0,900,east_to_west,120,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+0,900,west_to_east,108,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+900,1800,north_to_south,282,observed_ATR,NYC DOT ATR observed directional count
+900,1800,south_to_north,155,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+900,1800,east_to_west,141,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+900,1800,west_to_east,127,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+1800,2700,north_to_south,319,observed_ATR,NYC DOT ATR observed directional count
+1800,2700,south_to_north,175,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+1800,2700,east_to_west,160,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+1800,2700,west_to_east,144,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+2700,3600,north_to_south,309,observed_ATR,NYC DOT ATR observed directional count
+2700,3600,south_to_north,170,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+2700,3600,east_to_west,154,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use
+2700,3600,west_to_east,139,scenario_assumption,Scaled from observed mainline count; replace with field TMC/ATR count before decision use

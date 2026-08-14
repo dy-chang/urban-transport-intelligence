@@ -1,0 +1,23 @@
+<routes>
+  <vType id="passenger" vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="13.89" emissionClass="HBEFA3/PC_G_EU4"/>
+  <route id="north_to_south" edges="n_in s_out"/>
+  <route id="south_to_north" edges="s_in n_out"/>
+  <route id="east_to_west" edges="e_in w_out"/>
+  <route id="west_to_east" edges="w_in e_out"/>
+  <flow id="north_to_south_0" type="passenger" route="north_to_south" begin="0" end="900" number="241" departLane="best" departSpeed="max"/>
+  <flow id="south_to_north_1" type="passenger" route="south_to_north" begin="0" end="900" number="133" departLane="best" departSpeed="max"/>
+  <flow id="east_to_west_2" type="passenger" route="east_to_west" begin="0" end="900" number="120" departLane="best" departSpeed="max"/>
+  <flow id="west_to_east_3" type="passenger" route="west_to_east" begin="0" end="900" number="108" departLane="best" departSpeed="max"/>
+  <flow id="north_to_south_4" type="passenger" route="north_to_south" begin="900" end="1800" number="282" departLane="best" departSpeed="max"/>
+  <flow id="south_to_north_5" type="passenger" route="south_to_north" begin="900" end="1800" number="155" departLane="best" departSpeed="max"/>
+  <flow id="east_to_west_6" type="passenger" route="east_to_west" begin="900" end="1800" number="141" departLane="best" departSpeed="max"/>
+  <flow id="west_to_east_7" type="passenger" route="west_to_east" begin="900" end="1800" number="127" departLane="best" departSpeed="max"/>
+  <flow id="north_to_south_8" type="passenger" route="north_to_south" begin="1800" end="2700" number="319" departLane="best" departSpeed="max"/>
+  <flow id="south_to_north_9" type="passenger" route="south_to_north" begin="1800" end="2700" number="175" departLane="best" departSpeed="max"/>
+  <flow id="east_to_west_10" type="passenger" route="east_to_west" begin="1800" end="2700" number="160" departLane="best" departSpeed="max"/>
+  <flow id="west_to_east_11" type="passenger" route="west_to_east" begin="1800" end="2700" number="144" departLane="best" departSpeed="max"/>
+  <flow id="north_to_south_12" type="passenger" route="north_to_south" begin="2700" end="3600" number="309" departLane="best" departSpeed="max"/>
+  <flow id="south_to_north_13" type="passenger" route="south_to_north" begin="2700" end="3600" number="170" departLane="best" departSpeed="max"/>
+  <flow id="east_to_west_14" type="passenger" route="east_to_west" begin="2700" end="3600" number="154" departLane="best" departSpeed="max"/>
+  <flow id="west_to_east_15" type="passenger" route="west_to_east" begin="2700" end="3600" number="139" departLane="best" departSpeed="max"/>
+</routes>

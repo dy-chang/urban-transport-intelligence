@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-08-12T15:45:30.562107+00:00",
+  "analysis_level": "screening microsimulation; not a field-calibrated design model",
+  "source_metadata": {
+    "source_name": "NYC DOT Automated Traffic Volume Counts",
+    "source_url": "https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt",
+    "api_endpoint": "https://data.cityofnewyork.us/resource/7ym2-wayt.json",
+    "retrieved_at_utc": "2026-08-12T15:45:21.221818+00:00",
+    "query": {
+      "request_id": "1985",
+      "year": 2011,
+      "month": 1,
+      "day": 20,
+      "hour": 8
+    },
+    "socrata_params": {
+      "$select": "requestid,boro,yr,m,d,hh,mm,vol,segmentid,wktgeom,street,fromst,tost,direction",
+      "$where": "requestid='1985' AND yr=2011 AND m=1 AND d=20 AND hh=8",
+      "$order": "mm ASC",
+      "$limit": "100"
+    },
+    "row_count": 4,
+    "quality_note": "ATR counts are sampled observations; this is not a continuous or full-year profile."
+  },
+  "network": {
+    "type": "representative two-lane four-leg network generated with netconvert",
+    "network_file": "network/representative.net.xml",
+    "real_network_path": "Use network.osm_to_sumo_command() after OSM topology and TLS QA."
+  },
+  "demand": {
+    "observed_movement": "north_to_south",
+    "unobserved_movements": "Scaled scenario assumptions documented in sumo_demand_input_audit.csv",
+    "turning_movements": "Straight-through only in benchmark; replace with TMC or route-sampling calibration for a study model."
+  },
+  "scenarios": {
+    "baseline": "32s NS / 26s EW green plus clearance within a 70s cycle",
+    "peak_retimed": "42s NS / 16s EW green plus clearance within a 70s cycle"
+  },
+  "replications": 5,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "horizon_s": 4500,
+  "outputs": [
+    "public_atr_profile.csv",
+    "sumo_demand_input_audit.csv",
+    "seed_level_kpis.csv",
+    "kpi_uncertainty_summary.csv",
+    "scenario_deltas_vs_baseline.csv"
+  ]
+}
